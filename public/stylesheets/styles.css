@@ -11,8 +11,8 @@ body{
 	height:60px;
 }
 #logo{
-	font-family: 'Tangerine', serif;
-	font-size: 48px;
+	font-family: 'Tangerine',"fertigo-script-1","fertigo-script-2", arial, serif;
+	font-size: 35px;
 	padding-top:10px;
 	color:#000;
 	display:block;

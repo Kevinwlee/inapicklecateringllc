@@ -1,13 +1,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
 	<title>In a Pickle Catering LLC.</title>
-	<link rel="stylesheet" href="stylesheets/960_16.css" type="text/css" media="screen">
-	<link rel="stylesheet" href="stylesheets/styles.css" type="text/css" media="screen">
-	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
-	<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Josefin+Sans+Std+Light' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Reenie+Beanie' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="stylesheets/typeography.css" type="text/css" media="screen">
+	<%= stylesheet_link_tag :all %>
 	<script type="text/javascript" src="http://use.typekit.com/fjf4dtn.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 </head>
@@ -31,7 +25,7 @@
 			<h1>Home Cooked Meals</h1>
 			<h2>delivered right to your doorstep</h2>
 			<p>
-				<img src="images/carousel_4.jpg" width="206" height="136" alt="Carousel 4" class="left middle">
+				<%= image_tag "carousel_4.jpg", {:class =>"left middle", :alt =>"shrimp"} %>
 				Are you a <strong>busy family</strong> that doesn't have a lot of time to grocery shop, 
 				cook, and clean up after a long, grueling day??  If so, <strong>let me do all 
 				the 'dirty' work for you.</strong>  Home-cooked meals delivered right to your doorstep.  
@@ -40,10 +34,10 @@
 		</div>
 		<div class="grid_6">
 			<div class="welcome-right">
-				<img src="images/iaplogofull.png" width="208" height="298" alt="Iaplogofull">
+				<%= image_tag "iaplogofull.png", {:alt => "logo"}%>
 			</div>
 			<div class="c2a">
-				<img src="images/c2a.png" width="200" height="60" alt="C2a">
+				<%= image_tag "c2a.png", {:alt => "Call Us"}%>
 				<br/>
 				<em><a href="mailto:kevin@qtechnologycompany.com">Or Email Me :)</a></em>
 			</div>
