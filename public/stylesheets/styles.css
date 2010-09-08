@@ -1,0 +1,91 @@
+body{
+	margin:0;
+}
+
+/*Header section*/
+#header{
+	background-color: #f78621;
+	color:#FFF;
+}
+#header-inner{
+	height:60px;
+}
+#logo{
+	font-family: 'Tangerine', serif;
+	font-size: 48px;
+	padding-top:10px;
+	color:#000;
+	display:block;
+}
+
+/*Navigation Menu*/
+#menu{
+	/*font-family: 'Lobster', arial, serif;*/
+	color:#fff;
+	font-size: 1em;
+}
+
+ul#menu{
+	margin:0;
+	list-style: none;
+	padding:20px 0 0 0;
+}
+#menu li{
+	display: inline;
+	margin:0;
+}
+
+#menu a{
+	color:#FFF;
+	display: inline-block;
+	padding: 0px 20px;
+	text-decoration: none;
+	text-transform: capitalize;
+	font-size: 1.4em;
+	font-weight: bold;
+}
+#menu a:hover{
+	text-decoration: underline;
+}
+
+/*Main Content Section*/
+#content {
+	background: #747836 url('../images/ist2_9239828-seamless-pattern-with-paisley.jpg') repeat;
+}
+
+#content-inner{
+	background-color:#FFF;
+}
+
+/*Footer Section*/
+#footer{
+	background-color:#84DC24;
+}
+#footer-inner{
+	height:25px; 
+	padding-top:10px; 
+	background-color:#111; 
+	color:#999;
+}
+
+/*General Styles*/
+.cl{text-align: center;}
+.c2a {
+	margin-top:20px;
+	margin-left:70px;
+}
+
+.welcome p{
+	font-size:1.5em;
+	line-height:1.8em;
+}
+.welcome-right img{
+	margin-top:20px;
+	margin-left:70px;
+}
+/*day meal*/
+.day-meal h3{
+	border-top: 7px solid #84DC24;
+	padding-top:10px;
+}
+
