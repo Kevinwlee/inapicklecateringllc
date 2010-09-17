@@ -1,0 +1,38 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<title>In a Pickle Catering LLC.</title>
+	<%= stylesheet_link_tag :all %>
+	<link href='http://fonts.googleapis.com/css?family=Tangerine:regular,bold' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="http://use.typekit.com/nhb6xsn.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	
+</head>
+
+<body>
+<div id="header">
+	<div id="header-inner" class="container_16">
+		<div class="grid_6">
+			<span id="logo">In a Pickle Catering</span>
+		</div>
+		<ul id="menu" class="grid_10">
+			<li><%=link_to "Home", :action =>"index"%></li>
+			<li><%=link_to "About", :action => "about"%></li>
+		</ul>
+	</div>	
+</div>
+
+<div id="content">
+	<div id="content-inner" class="container_16">
+		<%= yield%>
+	</div>	
+</div>
+
+<div id="footer">
+	<div id="footer-inner" class="container_16">
+		<span class="grid_16 cl">footer</span>
+	</div>	
+</div>
+
+</body>
+</html>
+

@@ -615,3 +615,269 @@ Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
 Processing HomeController#index (for 127.0.0.1 at 2010-09-16 21:24:32) [GET]
 Rendering home/index
 Completed in 13ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-09-16 21:29:31) [GET]
+Rendering home/index
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-09-16 21:29:47) [GET]
+Rendering home/index
+Completed in 12ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-09-16 21:30:26) [GET]
+Rendering home/index
+Completed in 42ms (View: 40, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#home (for 127.0.0.1 at 2010-09-16 21:30:29) [GET]
+
+ActionController::UnknownAction (No action responded to home. Actions: about and index):
+  <internal:prelude>:8:in `synchronize'
+  /Users/kevin/.rvm/rubies/ruby-1.9.1-p378/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/kevin/.rvm/rubies/ruby-1.9.1-p378/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/kevin/.rvm/rubies/ruby-1.9.1-p378/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#home (for 127.0.0.1 at 2010-09-16 21:30:45) [GET]
+
+ActionController::UnknownAction (No action responded to home. Actions: about and index):
+  <internal:prelude>:8:in `synchronize'
+  /Users/kevin/.rvm/rubies/ruby-1.9.1-p378/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/kevin/.rvm/rubies/ruby-1.9.1-p378/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/kevin/.rvm/rubies/ruby-1.9.1-p378/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-09-16 21:30:49) [GET]
+Rendering home/about
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/home/about]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-09-16 21:30:54) [GET]
+Rendering home/index
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-09-16 21:31:42) [GET]
+Rendering home/index
+Completed in 15ms (View: 14, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-09-16 21:31:44) [GET]
+Rendering home/about
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/home/about]
+
+
+Processing HomeController#home (for 127.0.0.1 at 2010-09-16 21:33:09) [GET]
+
+ActionController::UnknownAction (No action responded to home. Actions: about and index):
+  <internal:prelude>:8:in `synchronize'
+  /Users/kevin/.rvm/rubies/ruby-1.9.1-p378/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/kevin/.rvm/rubies/ruby-1.9.1-p378/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/kevin/.rvm/rubies/ruby-1.9.1-p378/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#home (for 127.0.0.1 at 2010-09-16 21:33:12) [GET]
+
+ActionController::UnknownAction (No action responded to home. Actions: about and index):
+  <internal:prelude>:8:in `synchronize'
+  /Users/kevin/.rvm/rubies/ruby-1.9.1-p378/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/kevin/.rvm/rubies/ruby-1.9.1-p378/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/kevin/.rvm/rubies/ruby-1.9.1-p378/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-09-16 21:33:17) [GET]
+Rendering home/about
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/home/about]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-09-16 21:33:22) [GET]
+Rendering home/index
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://localhost/home/index]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-09-16 21:36:50) [GET]
+Rendering home/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/home/index]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-09-16 21:36:54) [GET]
+Rendering home/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-09-16 21:36:57) [GET]
+Rendering home/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-09-16 21:38:56) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 14ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-09-16 21:39:02) [GET]
+Rendering template within layouts/application
+Rendering home/about
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/home/about]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-09-16 21:39:04) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-09-16 21:40:29) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 57ms (View: 55, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-09-16 21:40:31) [GET]
+Rendering template within layouts/application
+Rendering home/about
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/home/about]
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-09-16 21:40:55) [GET]
+Rendering template within layouts/application
+Rendering home/about
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://localhost/home/about]
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-09-16 21:41:33) [GET]
+Rendering template within layouts/application
+Rendering home/about
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://localhost/home/about]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-09-16 21:42:33) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-09-16 21:42:34) [GET]
+Rendering template within layouts/application
+Rendering home/about
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://localhost/home/about]
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-09-16 21:44:19) [GET]
+Rendering template within layouts/application
+Rendering home/about
+Completed in 14ms (View: 13, DB: 0) | 200 OK [http://localhost/home/about]
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-09-16 21:44:32) [GET]
+Rendering template within layouts/application
+Rendering home/about
+Completed in 19ms (View: 17, DB: 0) | 200 OK [http://localhost/home/about]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-09-16 21:45:01) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-09-16 21:45:25) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-09-16 21:45:32) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-09-16 21:45:33) [GET]
+Rendering template within layouts/application
+Rendering home/about
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/home/about]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-09-16 21:45:35) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-09-16 21:45:36) [GET]
+Rendering template within layouts/application
+Rendering home/about
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/home/about]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-09-16 21:45:37) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-09-16 21:45:39) [GET]
+Rendering template within layouts/application
+Rendering home/about
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/home/about]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-09-16 21:45:40) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-09-16 21:45:42) [GET]
+Rendering template within layouts/application
+Rendering home/about
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/home/about]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-09-16 21:45:43) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-09-16 21:46:09) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-09-16 21:46:11) [GET]
+Rendering template within layouts/application
+Rendering home/about
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://localhost/home/about]
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-09-16 21:47:02) [GET]
+Rendering template within layouts/application
+Rendering home/about
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://localhost/home/about]
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-09-16 21:48:48) [GET]
+Rendering template within layouts/application
+Rendering home/about
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://localhost/home/about]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-09-16 21:49:09) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
