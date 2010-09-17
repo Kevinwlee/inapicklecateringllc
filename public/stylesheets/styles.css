@@ -1,7 +1,9 @@
 body{
 	margin:0;
 }
-
+ul{
+	-webkit-padding-start: 0px
+}
 /*Header section*/
 #header{
 	background-color: #f78621;
@@ -12,27 +14,33 @@ body{
 }
 #logo{
 	font-family: 'Tangerine',"fertigo-script-1","fertigo-script-2", arial, serif;
-	font-size: 35px;
+	font-size: 50px;
 	padding-top:10px;
 	color:#000;
 	display:block;
+	height:50px;
+	line-height:50px;
 }
 
 /*Navigation Menu*/
 #menu{
 	/*font-family: 'Lobster', arial, serif;*/
 	color:#fff;
-	font-size: 1em;
+	font-size: 1.5em;
+	height:1.5em;
+	line-height:1.5em;
 }
 
 ul#menu{
 	margin:0;
 	list-style: none;
-	padding:20px 0 0 0;
+	padding:10px 0 0 0;
 }
 #menu li{
 	display: inline;
 	margin:0;
+	height:1.5;
+	line-height:1.5em;
 }
 
 #menu a{
@@ -72,16 +80,17 @@ ul#menu{
 .cl{text-align: center;}
 .c2a {
 	margin-top:20px;
-	margin-left:70px;
+	margin-right:70px;
+	float:right;
 }
 
 .welcome p{
 	font-size:1.5em;
 	line-height:1.8em;
 }
-.welcome-right img{
+.welcome-image img{
 	margin-top:20px;
-	margin-left:70px;
+	margin-left:35px;
 }
 /*day meal*/
 .day-meal h3{

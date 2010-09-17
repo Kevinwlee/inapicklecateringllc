@@ -2,8 +2,10 @@
 <head>
 	<title>In a Pickle Catering LLC.</title>
 	<%= stylesheet_link_tag :all %>
-	<script type="text/javascript" src="http://use.typekit.com/fjf4dtn.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Tangerine:regular,bold' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="http://use.typekit.com/nhb6xsn.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	
 </head>
 
 <body class="tk-fertigo-script">
@@ -21,28 +23,26 @@
 </div>
 <div id="content">
 	<div id="content-inner" class="container_16">
+		<div class="grid_6">
+			<div class="welcome-image">
+				<%= image_tag "iaplogofull.png", {:alt => "logo"}%>
+			</div>
+		</div>
 		<div class="grid_10 welcome">
 			<h1>Home Cooked Meals</h1>
 			<h2>delivered right to your doorstep</h2>
 			<p>
-				<%= image_tag "carousel_4.jpg", {:class =>"left middle", :alt =>"shrimp"} %>
 				Are you a <strong>busy family</strong> that doesn't have a lot of time to grocery shop, 
 				cook, and clean up after a long, grueling day??  If so, <strong>let me do all 
 				the 'dirty' work for you.</strong>  Home-cooked meals delivered right to your doorstep.  
 				<strong>No mess, no fuss!</strong>
 				</p>
+				<div class="c2a">
+					<%= image_tag "c2a.png", {:alt => "Call Us"}%>
+					<br/>
+					<em><a href="mailto:kevin@qtechnologycompany.com">Or Email Me :)</a></em>
+				</div>
 		</div>
-		<div class="grid_6">
-			<div class="welcome-right">
-				<%= image_tag "iaplogofull.png", {:alt => "logo"}%>
-			</div>
-			<div class="c2a">
-				<%= image_tag "c2a.png", {:alt => "Call Us"}%>
-				<br/>
-				<em><a href="mailto:kevin@qtechnologycompany.com">Or Email Me :)</a></em>
-			</div>
-		</div>
-		
 		<br class="clear"/>
 		<div class="grid_4 day-meal">
 			<h3><strong>Monday</strong></h3>
