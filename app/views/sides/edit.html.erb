@@ -1,0 +1,16 @@
+<h1>Editing side</h1>
+
+<% form_for(@side) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :description %><br />
+    <%= f.text_field :description %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @side %> |
+<%= link_to 'Back', sides_path %>

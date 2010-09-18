@@ -1,0 +1,13 @@
+<p>
+  <b>Name:</b>
+  <%=h @entree.name %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%=h @entree.description %>
+</p>
+
+
+<%= link_to 'Edit', edit_entree_path(@entree) %> |
+<%= link_to 'Back', entrees_path %>

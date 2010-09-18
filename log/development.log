@@ -911,3 +911,440 @@ Processing HomeController#index (for 127.0.0.1 at 2010-09-16 22:17:22) [GET]
 Rendering template within layouts/application
 Rendering home/index
 Completed in 11ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (2.9ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (2.9ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateEntrees (20100918012053)
+  [4;36;1mSQL (0.7ms)[0m   [0;1mCREATE TABLE "entrees" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" text, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100918012053')[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("entrees")[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-09-17 20:51:22) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 197ms (View: 196, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-09-17 20:51:51) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-09-17 20:51:54) [GET]
+Rendering template within layouts/application
+Rendering home/about
+Completed in 31ms (View: 30, DB: 0) | 200 OK [http://localhost/home/about]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-09-17 20:51:56) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-09-17 20:51:57) [GET]
+Rendering template within layouts/application
+Rendering home/about
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/home/about]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-09-17 20:51:58) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-09-17 20:52:04) [GET]
+
+ActionController::RoutingError (No route matches "/entree" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  /Users/kevin/.rvm/rubies/ruby-1.9.1-p378/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/kevin/.rvm/rubies/ruby-1.9.1-p378/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/kevin/.rvm/rubies/ruby-1.9.1-p378/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing EntreesController#index (for 127.0.0.1 at 2010-09-17 20:52:06) [GET]
+  [4;36;1mEntree Load (0.4ms)[0m   [0;1mSELECT * FROM "entrees" [0m
+Rendering template within layouts/entrees
+Rendering entrees/index
+Completed in 77ms (View: 72, DB: 0) | 200 OK [http://localhost/entrees]
+
+
+Processing EntreesController#new (for 127.0.0.1 at 2010-09-17 20:52:08) [GET]
+Rendering template within layouts/entrees
+Rendering entrees/new
+Completed in 44ms (View: 39, DB: 0) | 200 OK [http://localhost/entrees/new]
+
+
+Processing EntreesController#create (for 127.0.0.1 at 2010-09-17 20:52:26) [POST]
+  Parameters: {"authenticity_token"=>"ditDF0JEwqr7+aQZbl79ZSaJ4Nzuno+Bq3r8OxtFP4Y=", "entree"=>{"name"=>"Something Yummy", "description"=>"A big long description about the meal."}, "commit"=>"Create"}
+  [4;35;1mEntree Create (59.2ms)[0m   [0mINSERT INTO "entrees" ("name", "description", "created_at", "updated_at") VALUES('Something Yummy', 'A big long description about the meal.', '2010-09-18 01:52:26', '2010-09-18 01:52:26')[0m
+Redirected to http://localhost:3000/entrees/1
+Completed in 98ms (DB: 59) | 302 Found [http://localhost/entrees]
+
+
+Processing EntreesController#show (for 127.0.0.1 at 2010-09-17 20:52:26) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEntree Load (0.2ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees"."id" = 1) [0m
+Rendering template within layouts/entrees
+Rendering entrees/show
+Completed in 27ms (View: 23, DB: 0) | 200 OK [http://localhost/entrees/1]
+
+
+Processing EntreesController#index (for 127.0.0.1 at 2010-09-17 20:52:29) [GET]
+  [4;35;1mEntree Load (0.5ms)[0m   [0mSELECT * FROM "entrees" [0m
+Rendering template within layouts/entrees
+Rendering entrees/index
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/entrees]
+
+
+Processing EntreesController#new (for 127.0.0.1 at 2010-09-17 20:52:30) [GET]
+Rendering template within layouts/entrees
+Rendering entrees/new
+Completed in 7ms (View: 3, DB: 0) | 200 OK [http://localhost/entrees/new]
+
+
+Processing EntreesController#create (for 127.0.0.1 at 2010-09-17 20:52:45) [POST]
+  Parameters: {"authenticity_token"=>"ditDF0JEwqr7+aQZbl79ZSaJ4Nzuno+Bq3r8OxtFP4Y=", "entree"=>{"name"=>"Here's another entree.", "description"=>"And another big long description."}, "commit"=>"Create"}
+  [4;36;1mEntree Create (0.3ms)[0m   [0;1mINSERT INTO "entrees" ("name", "description", "created_at", "updated_at") VALUES('Here''s another entree.', 'And another big long description.', '2010-09-18 01:52:45', '2010-09-18 01:52:45')[0m
+Redirected to http://localhost:3000/entrees/2
+Completed in 10ms (DB: 0) | 302 Found [http://localhost/entrees]
+
+
+Processing EntreesController#show (for 127.0.0.1 at 2010-09-17 20:52:45) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mEntree Load (0.2ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees"."id" = 2) [0m
+Rendering template within layouts/entrees
+Rendering entrees/show
+Completed in 8ms (View: 3, DB: 0) | 200 OK [http://localhost/entrees/2]
+
+
+Processing EntreesController#index (for 127.0.0.1 at 2010-09-17 20:52:51) [GET]
+  [4;36;1mEntree Load (0.5ms)[0m   [0;1mSELECT * FROM "entrees" [0m
+Rendering template within layouts/entrees
+Rendering entrees/index
+Completed in 9ms (View: 5, DB: 1) | 200 OK [http://localhost/entrees]
+
+
+Processing EntreesController#new (for 127.0.0.1 at 2010-09-17 20:52:53) [GET]
+Rendering template within layouts/entrees
+Rendering entrees/new
+Completed in 8ms (View: 3, DB: 0) | 200 OK [http://localhost/entrees/new]
+
+
+Processing EntreesController#create (for 127.0.0.1 at 2010-09-17 20:53:15) [POST]
+  Parameters: {"authenticity_token"=>"ditDF0JEwqr7+aQZbl79ZSaJ4Nzuno+Bq3r8OxtFP4Y=", "entree"=>{"name"=>"Entree 3", "description"=>"Big long description about something really yummy.  I really want to eat this meal."}, "commit"=>"Create"}
+  [4;35;1mEntree Create (0.4ms)[0m   [0mINSERT INTO "entrees" ("name", "description", "created_at", "updated_at") VALUES('Entree 3', 'Big long description about something really yummy. I really want to eat this meal.', '2010-09-18 01:53:15', '2010-09-18 01:53:15')[0m
+Redirected to http://localhost:3000/entrees/3
+Completed in 11ms (DB: 0) | 302 Found [http://localhost/entrees]
+
+
+Processing EntreesController#show (for 127.0.0.1 at 2010-09-17 20:53:15) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mEntree Load (0.2ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees"."id" = 3) [0m
+Rendering template within layouts/entrees
+Rendering entrees/show
+Completed in 7ms (View: 3, DB: 0) | 200 OK [http://localhost/entrees/3]
+
+
+Processing EntreesController#index (for 127.0.0.1 at 2010-09-17 20:53:18) [GET]
+  [4;35;1mEntree Load (0.6ms)[0m   [0mSELECT * FROM "entrees" [0m
+Rendering template within layouts/entrees
+Rendering entrees/index
+Completed in 9ms (View: 5, DB: 1) | 200 OK [http://localhost/entrees]
+
+
+Processing EntreesController#show (for 127.0.0.1 at 2010-09-17 20:53:24) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEntree Load (0.2ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees"."id" = 1) [0m
+Rendering template within layouts/entrees
+Rendering entrees/show
+Completed in 7ms (View: 3, DB: 0) | 200 OK [http://localhost/entrees/1]
+
+
+Processing EntreesController#index (for 127.0.0.1 at 2010-09-17 20:53:26) [GET]
+  [4;35;1mEntree Load (0.5ms)[0m   [0mSELECT * FROM "entrees" [0m
+Rendering template within layouts/entrees
+Rendering entrees/index
+Completed in 9ms (View: 5, DB: 1) | 200 OK [http://localhost/entrees]
+
+
+Processing EntreesController#index (for 127.0.0.1 at 2010-09-17 20:53:51) [GET]
+  [4;36;1mEntree Load (0.6ms)[0m   [0;1mSELECT * FROM "entrees" [0m
+Rendering template within layouts/entrees
+Rendering entrees/index
+Completed in 12ms (View: 7, DB: 1) | 200 OK [http://localhost/entrees]
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateEntrees (20100918012053)
+Migrating to CreateSides (20100918015555)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCREATE TABLE "sides" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "description" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100918015555')[0m
+  [4;35;1mSQL (0.3ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("entrees")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("sides")[0m
+
+
+Processing SidesController#index (for 127.0.0.1 at 2010-09-17 20:56:17) [GET]
+  [4;35;1mSide Load (0.4ms)[0m   [0mSELECT * FROM "sides" [0m
+Rendering template within layouts/sides
+Rendering sides/index
+Completed in 24ms (View: 20, DB: 0) | 200 OK [http://localhost/sides]
+
+
+Processing SidesController#new (for 127.0.0.1 at 2010-09-17 20:56:19) [GET]
+Rendering template within layouts/sides
+Rendering sides/new
+Completed in 15ms (View: 11, DB: 0) | 200 OK [http://localhost/sides/new]
+
+
+Processing SidesController#create (for 127.0.0.1 at 2010-09-17 20:56:29) [POST]
+  Parameters: {"authenticity_token"=>"/E1nr10jjKa6kfzL2g+Bg/s3j3gemOufgBccrHDTA8E=", "side"=>{"description"=>"Balslmic vinegrette"}, "commit"=>"Create"}
+  [4;36;1mSide Create (0.3ms)[0m   [0;1mINSERT INTO "sides" ("description", "created_at", "updated_at") VALUES('Balslmic vinegrette', '2010-09-18 01:56:29', '2010-09-18 01:56:29')[0m
+Redirected to http://localhost:3000/sides/1
+Completed in 14ms (DB: 0) | 302 Found [http://localhost/sides]
+
+
+Processing SidesController#show (for 127.0.0.1 at 2010-09-17 20:56:29) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides"."id" = 1) [0m
+Rendering template within layouts/sides
+Rendering sides/show
+Completed in 56ms (View: 10, DB: 0) | 200 OK [http://localhost/sides/1]
+
+
+Processing SidesController#index (for 127.0.0.1 at 2010-09-17 20:56:31) [GET]
+  [4;36;1mSide Load (0.6ms)[0m   [0;1mSELECT * FROM "sides" [0m
+Rendering template within layouts/sides
+Rendering sides/index
+Completed in 8ms (View: 4, DB: 1) | 200 OK [http://localhost/sides]
+
+
+Processing SidesController#new (for 127.0.0.1 at 2010-09-17 20:56:32) [GET]
+Rendering template within layouts/sides
+Rendering sides/new
+Completed in 7ms (View: 3, DB: 0) | 200 OK [http://localhost/sides/new]
+
+
+Processing SidesController#create (for 127.0.0.1 at 2010-09-17 20:56:40) [POST]
+  Parameters: {"authenticity_token"=>"/E1nr10jjKa6kfzL2g+Bg/s3j3gemOufgBccrHDTA8E=", "side"=>{"description"=>"Corn on the Cobb"}, "commit"=>"Create"}
+  [4;35;1mSide Create (0.3ms)[0m   [0mINSERT INTO "sides" ("description", "created_at", "updated_at") VALUES('Corn on the Cobb', '2010-09-18 01:56:40', '2010-09-18 01:56:40')[0m
+Redirected to http://localhost:3000/sides/2
+Completed in 10ms (DB: 0) | 302 Found [http://localhost/sides]
+
+
+Processing SidesController#show (for 127.0.0.1 at 2010-09-17 20:56:40) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mSide Load (0.2ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides"."id" = 2) [0m
+Rendering template within layouts/sides
+Rendering sides/show
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/sides/2]
+
+
+Processing SidesController#index (for 127.0.0.1 at 2010-09-17 20:56:41) [GET]
+  [4;35;1mSide Load (0.5ms)[0m   [0mSELECT * FROM "sides" [0m
+Rendering template within layouts/sides
+Rendering sides/index
+Completed in 8ms (View: 4, DB: 1) | 200 OK [http://localhost/sides]
+
+
+Processing SidesController#new (for 127.0.0.1 at 2010-09-17 20:56:43) [GET]
+Rendering template within layouts/sides
+Rendering sides/new
+Completed in 7ms (View: 3, DB: 0) | 200 OK [http://localhost/sides/new]
+
+
+Processing SidesController#create (for 127.0.0.1 at 2010-09-17 20:56:55) [POST]
+  Parameters: {"authenticity_token"=>"/E1nr10jjKa6kfzL2g+Bg/s3j3gemOufgBccrHDTA8E=", "side"=>{"description"=>"Roasted New Potatoes"}, "commit"=>"Create"}
+  [4;36;1mSide Create (0.3ms)[0m   [0;1mINSERT INTO "sides" ("description", "created_at", "updated_at") VALUES('Roasted New Potatoes', '2010-09-18 01:56:55', '2010-09-18 01:56:55')[0m
+Redirected to http://localhost:3000/sides/3
+Completed in 10ms (DB: 0) | 302 Found [http://localhost/sides]
+
+
+Processing SidesController#show (for 127.0.0.1 at 2010-09-17 20:56:55) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mSide Load (0.2ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides"."id" = 3) [0m
+Rendering template within layouts/sides
+Rendering sides/show
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/sides/3]
+
+
+Processing SidesController#index (for 127.0.0.1 at 2010-09-17 20:56:58) [GET]
+  [4;36;1mSide Load (0.6ms)[0m   [0;1mSELECT * FROM "sides" [0m
+Rendering template within layouts/sides
+Rendering sides/index
+Completed in 9ms (View: 5, DB: 1) | 200 OK [http://localhost/sides]
+
+
+Processing SidesController#new (for 127.0.0.1 at 2010-09-17 20:56:59) [GET]
+Rendering template within layouts/sides
+Rendering sides/new
+Completed in 7ms (View: 3, DB: 0) | 200 OK [http://localhost/sides/new]
+
+
+Processing SidesController#create (for 127.0.0.1 at 2010-09-17 20:57:05) [POST]
+  Parameters: {"authenticity_token"=>"/E1nr10jjKa6kfzL2g+Bg/s3j3gemOufgBccrHDTA8E=", "side"=>{"description"=>"Ceasar Salad"}, "commit"=>"Create"}
+  [4;35;1mSide Create (0.4ms)[0m   [0mINSERT INTO "sides" ("description", "created_at", "updated_at") VALUES('Ceasar Salad', '2010-09-18 01:57:05', '2010-09-18 01:57:05')[0m
+Redirected to http://localhost:3000/sides/4
+Completed in 10ms (DB: 0) | 302 Found [http://localhost/sides]
+
+
+Processing SidesController#show (for 127.0.0.1 at 2010-09-17 20:57:05) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mSide Load (0.2ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides"."id" = 4) [0m
+Rendering template within layouts/sides
+Rendering sides/show
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/sides/4]
+
+
+Processing SidesController#index (for 127.0.0.1 at 2010-09-17 20:57:06) [GET]
+  [4;35;1mSide Load (0.6ms)[0m   [0mSELECT * FROM "sides" [0m
+Rendering template within layouts/sides
+Rendering sides/index
+Completed in 9ms (View: 5, DB: 1) | 200 OK [http://localhost/sides]
+
+
+Processing SidesController#new (for 127.0.0.1 at 2010-09-17 20:57:07) [GET]
+Rendering template within layouts/sides
+Rendering sides/new
+Completed in 7ms (View: 3, DB: 0) | 200 OK [http://localhost/sides/new]
+
+
+Processing SidesController#create (for 127.0.0.1 at 2010-09-17 20:57:22) [POST]
+  Parameters: {"authenticity_token"=>"/E1nr10jjKa6kfzL2g+Bg/s3j3gemOufgBccrHDTA8E=", "side"=>{"description"=>"Red Peppers"}, "commit"=>"Create"}
+  [4;36;1mSide Create (0.3ms)[0m   [0;1mINSERT INTO "sides" ("description", "created_at", "updated_at") VALUES('Red Peppers', '2010-09-18 01:57:22', '2010-09-18 01:57:22')[0m
+Redirected to http://localhost:3000/sides/5
+Completed in 10ms (DB: 0) | 302 Found [http://localhost/sides]
+
+
+Processing SidesController#show (for 127.0.0.1 at 2010-09-17 20:57:22) [GET]
+  Parameters: {"id"=>"5"}
+  [4;35;1mSide Load (0.2ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides"."id" = 5) [0m
+Rendering template within layouts/sides
+Rendering sides/show
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/sides/5]
+
+
+Processing SidesController#index (for 127.0.0.1 at 2010-09-17 20:57:24) [GET]
+  [4;36;1mSide Load (0.6ms)[0m   [0;1mSELECT * FROM "sides" [0m
+Rendering template within layouts/sides
+Rendering sides/index
+Completed in 10ms (View: 6, DB: 1) | 200 OK [http://localhost/sides]
+
+
+Processing SidesController#edit (for 127.0.0.1 at 2010-09-17 20:57:37) [GET]
+  Parameters: {"id"=>"5"}
+  [4;35;1mSide Load (0.2ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides"."id" = 5) [0m
+Rendering template within layouts/sides
+Rendering sides/edit
+Completed in 16ms (View: 12, DB: 0) | 200 OK [http://localhost/sides/5/edit]
+
+
+Processing SidesController#update (for 127.0.0.1 at 2010-09-17 20:57:40) [PUT]
+  Parameters: {"authenticity_token"=>"/E1nr10jjKa6kfzL2g+Bg/s3j3gemOufgBccrHDTA8E=", "side"=>{"description"=>"Red Peppers"}, "commit"=>"Update", "id"=>"5"}
+  [4;36;1mSide Load (0.2ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides"."id" = 5) [0m
+Redirected to http://localhost:3000/sides/5
+Completed in 8ms (DB: 0) | 302 Found [http://localhost/sides/5]
+
+
+Processing SidesController#show (for 127.0.0.1 at 2010-09-17 20:57:40) [GET]
+  Parameters: {"id"=>"5"}
+  [4;35;1mSide Load (0.2ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides"."id" = 5) [0m
+Rendering template within layouts/sides
+Rendering sides/show
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/sides/5]
+
+
+Processing SidesController#index (for 127.0.0.1 at 2010-09-17 20:57:41) [GET]
+  [4;36;1mSide Load (0.6ms)[0m   [0;1mSELECT * FROM "sides" [0m
+Rendering template within layouts/sides
+Rendering sides/index
+Completed in 10ms (View: 6, DB: 1) | 200 OK [http://localhost/sides]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-09-17 21:00:12) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 51ms (View: 50, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-09-17 21:00:22) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-09-17 21:00:23) [GET]
+Rendering template within layouts/application
+Rendering home/about
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/home/about]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-09-17 21:00:24) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-09-17 21:00:25) [GET]
+Rendering template within layouts/application
+Rendering home/about
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/home/about]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-09-17 21:00:27) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-09-17 21:00:28) [GET]
+Rendering template within layouts/application
+Rendering home/about
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/home/about]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-09-17 21:00:32) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-09-17 21:00:48) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
