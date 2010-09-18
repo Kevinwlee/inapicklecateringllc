@@ -1,7 +1,7 @@
 class Meal < ActiveRecord::Base
   has_many :entrees, :class_name => "Entree", :foreign_key => "meal_id"
   has_many :side_items, :class_name => "Side", :foreign_key => "meal_id"
-  has_many :other_items, :class_name => "Side", :foreign_key => "meal_id"
+  has_many :other_items, :class_name => "Dressing", :foreign_key => "meal_id"
   
   def entree_attributes=(entree_attributes)
     entree_attributes.each do |attributes|

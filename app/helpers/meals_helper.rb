@@ -11,7 +11,7 @@ module MealsHelper
   end
   def add_other_link(name)
     link_to_function name do |page|
-      page.insert_html :bottom, :jq_others, :partial => 'other', :object => Side.new
+      page.insert_html :bottom, :jq_others, :partial => 'other', :object => Dressing.new
     end
   end
 end

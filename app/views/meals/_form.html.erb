@@ -1,0 +1,39 @@
+<% form_for(@meal) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :title %><br />
+    <%= f.text_field :title %>
+  </p>
+	<div id="jq_entrees">
+		<%= render :partial =>"entree", :collection=>@meal.entrees%>
+   </div>
+<p><%= add_entree_link "Add a Entree" %></p>
+  <p>
+    <%= f.label :side_title %><br />
+    <%= f.text_field :side_title %>
+  </p>
+	<div id="jq_sides">
+	<%= render :partial => "side", :collection => @meal.side_items %>
+	</div>
+	<p><%= add_side_link "Add a Side" %></p>
+  <p>
+    <%= f.label :other_title %><br />
+    <%= f.text_field :other_title %>
+  </p>
+  <div id="jq_others">
+	<%= render :partial => "other", :collection => @meal.other_items %>
+  </div>
+  <p><%= add_other_link "Add a Other" %></p>
+  <p>
+    <%= f.label :day %><br />
+    <%= f.text_field :day %>
+  </p>
+  <p>
+    <%= f.label :published %><br />
+    <%= f.check_box :published %>
+  </p>
+  <p>
+    <%= f.submit 'Submit' %>
+  </p>
+<% end %>
