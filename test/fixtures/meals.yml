@@ -1,0 +1,15 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  title: MyString
+  side_title: MyString
+  other_title: MyString
+  day: MyString
+  published: false
+
+two:
+  title: MyString
+  side_title: MyString
+  other_title: MyString
+  day: MyString
+  published: false

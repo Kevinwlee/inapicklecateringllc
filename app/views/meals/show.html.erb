@@ -1,0 +1,36 @@
+<div class="grid_16">	
+	<p>
+	  <b>Title:</b>
+	  <%=h @meal.title %>
+	<%=h @meal.id %>
+	</p>
+
+	<p>
+	  <b>Side title:</b>
+	  <%=h @meal.side_title %>
+	</p>
+	<p>
+		<% @meal.entrees.each do |entree|%>
+			<p><%=entree.name%></p>
+		<%end%>
+   </p>
+	<p>
+	  <b>Other title:</b>
+	  <%=h @meal.other_title %>
+	</p>
+
+	<p>
+	  <b>Day:</b>
+	  <%=h @meal.day %>
+	</p>
+
+	<p>
+	  <b>Published:</b>
+	  <%=h @meal.published %>
+	</p>
+
+
+	<%= link_to 'Edit', edit_meal_path(@meal) %> |
+	<%= link_to 'Back', meals_path %>
+</div>
+<br class="clear"/>

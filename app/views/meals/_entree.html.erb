@@ -1,0 +1,6 @@
+<% fields_for "meal[entree_attributes][]", entree do |entree_form|%>
+<p class="jq-entree">
+	Entree: <%= entree_form.text_field :name %>
+	<%= link_to_function "remove", "$(this).up('.jq-entree').remove()" %>
+</p>
+<%end %>

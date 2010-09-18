@@ -1,20 +1,23 @@
-<h1>Editing entree</h1>
+<div clss="grid_16">
+	<h1>Editing entree</h1>
 
-<% form_for(@entree) do |f| %>
-  <%= f.error_messages %>
+	<% form_for(@entree) do |f| %>
+	  <%= f.error_messages %>
 
-  <p>
-    <%= f.label :name %><br />
-    <%= f.text_field :name %>
-  </p>
-  <p>
-    <%= f.label :description %><br />
-    <%= f.text_area :description %>
-  </p>
-  <p>
-    <%= f.submit 'Update' %>
-  </p>
-<% end %>
+	  <p>
+	    <%= f.label :name %><br />
+	    <%= f.text_field :name %>
+	  </p>
+	  <p>
+	    <%= f.label :description %><br />
+	    <%= f.text_area :description %>
+	  </p>
+	  <p>
+	    <%= f.submit 'Update' %>
+	  </p>
+	<% end %>
 
-<%= link_to 'Show', @entree %> |
-<%= link_to 'Back', entrees_path %>
+	<%= link_to 'Show', @entree %> |
+	<%= link_to 'Back', entrees_path %>
+</div>
+<br class="clear"/>

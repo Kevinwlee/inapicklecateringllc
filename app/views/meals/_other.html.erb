@@ -1,0 +1,6 @@
+<%fields_for "meal[other_attributes][]", other do |other_form|%>
+<p class="jq-other-item">
+	Dressing: <%= other_form.text_field :description %>
+	<%= link_to_function "remove", "$(this).up('.jq-other-item').remove()" %>
+</p>
+<%end %>

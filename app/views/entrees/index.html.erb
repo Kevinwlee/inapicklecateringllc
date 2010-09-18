@@ -1,22 +1,24 @@
-<h1>Listing entrees</h1>
+<div class="grid_16">
+	<h1>Listing entrees</h1>
+	<table class="grid">
+	  <tr>
+	    <th>Name</th>
+	    <th>Description</th>
+	  </tr>
 
-<table>
-  <tr>
-    <th>Name</th>
-    <th>Description</th>
-  </tr>
+	<% @entrees.each do |entree| %>
+	  <tr>
+	    <td><%=h entree.name %></td>
+	    <td><%=h entree.description %></td>
+	    <td><%= link_to 'Show', entree %></td>
+	    <td><%= link_to 'Edit', edit_entree_path(entree) %></td>
+	    <td><%= link_to 'Destroy', entree, :confirm => 'Are you sure?', :method => :delete %></td>
+	  </tr>
+	<% end %>
+	</table>
 
-<% @entrees.each do |entree| %>
-  <tr>
-    <td><%=h entree.name %></td>
-    <td><%=h entree.description %></td>
-    <td><%= link_to 'Show', entree %></td>
-    <td><%= link_to 'Edit', edit_entree_path(entree) %></td>
-    <td><%= link_to 'Destroy', entree, :confirm => 'Are you sure?', :method => :delete %></td>
-  </tr>
-<% end %>
-</table>
+	<br />
 
-<br />
-
-<%= link_to 'New entree', new_entree_path %>
+	<%= link_to 'New entree', new_entree_path %>
+</div>
+<br class="clear"/>

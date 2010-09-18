@@ -8,6 +8,7 @@
 	<link href='http://fonts.googleapis.com/css?family=Tangerine:regular,bold' rel='stylesheet' type='text/css'>
 	<script type="text/javascript" src="http://use.typekit.com/nhb6xsn.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	<%= javascript_include_tag :defaults %>
 	
 </head>
 
@@ -18,14 +19,15 @@
 			<span id="logo">In a Pickle Catering</span>
 		</div>
 		<ul id="menu" class="grid_10">
-			<li><%=link_to "Home", :action =>"index"%></li>
-			<li><%=link_to "About", :action => "about"%></li>
+			<li><%=link_to "Home",:controller=>"home", :action =>"index"%></li>
+			<li><%=link_to "About", :controller=>"home", :action => "about"%></li>
 		</ul>
 	</div>	
 </div>
 
 <div id="content">
 	<div id="content-inner" class="container_16">
+		<p style="color: green"><%= flash[:notice] %></p>
 		<%= yield%>
 	</div>	
 </div>

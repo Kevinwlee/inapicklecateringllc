@@ -1,0 +1,6 @@
+<% fields_for "meal[side_attributes][]", side do |side_form|%>
+<p class="jq-side-item">
+	Side: <%= side_form.text_field :description %>
+	<%= link_to_function "remove", "$(this).up('.jq-side-item').remove()" %>
+</p>
+<%end %>

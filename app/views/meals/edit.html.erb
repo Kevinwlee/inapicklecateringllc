@@ -1,0 +1,35 @@
+<div class="grid_16">
+	<h1>Editing meal</h1>
+
+	<% form_for(@meal) do |f| %>
+	  <%= f.error_messages %>
+
+	  <p>
+	    <%= f.label :title %><br />
+	    <%= f.text_field :title %>
+	  </p>
+	  <p>
+	    <%= f.label :side_title %><br />
+	    <%= f.text_field :side_title %>
+	  </p>
+	  <p>
+	    <%= f.label :other_title %><br />
+	    <%= f.text_field :other_title %>
+	  </p>
+	  <p>
+	    <%= f.label :day %><br />
+	    <%= f.text_field :day %>
+	  </p>
+	  <p>
+	    <%= f.label :published %><br />
+	    <%= f.check_box :published %>
+	  </p>
+	  <p>
+	    <%= f.submit 'Update' %>
+	  </p>
+	<% end %>
+
+	<%= link_to 'Show', @meal %> |
+	<%= link_to 'Back', meals_path %>
+</div>
+<br class="clear" />

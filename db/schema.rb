@@ -9,11 +9,22 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20100918015555) do
+ActiveRecord::Schema.define(:version => 20100918045723) do
 
   create_table "entrees", :force => true do |t|
     t.string   "name",        :null => false
     t.text     "description", :null => false
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+    t.integer  "meal_id",     :null => false
+  end
+
+  create_table "meals", :force => true do |t|
+    t.string   "title",       :null => false
+    t.string   "side_title",  :null => false
+    t.string   "other_title", :null => false
+    t.string   "day",         :null => false
+    t.boolean  "published",   :null => false
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false
   end
@@ -22,6 +33,7 @@ ActiveRecord::Schema.define(:version => 20100918015555) do
     t.string   "description", :null => false
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false
+    t.integer  "meal_id",     :null => false
   end
 
 end
