@@ -1,4 +1,7 @@
 class MealsController < ApplicationController
+  before_filter :authenticate_user!
+  load_and_authorize_resource
+  
   # GET /meals
   # GET /meals.xml
   def index
