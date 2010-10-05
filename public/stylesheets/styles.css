@@ -79,8 +79,26 @@ ul#menu{
 .cl{text-align: center;}
 .c2a {
 	margin-top:20px;
-	margin-right:70px;
 	float:right;
+/*	background-color: #d0f1fb;*/
+	background-color:#f39dc2;
+	border: 1px solid #999;
+	padding:5px;
+	color:#FFF;
+}
+span.black{
+		color:#000;
+}
+.c2a h2{
+	font-family: "lemonde-sans-1","lemonde-sans-2",sans-serif;	
+	margin-bottom:0px;
+}
+.c2a h3{
+	margin-top:5px;
+		color:#FFF;
+}
+.c2a p{
+	font-family: "lemonde-sans-1","lemonde-sans-2",sans-serif;	
 }
 .welcome{
 }
@@ -114,4 +132,7 @@ ul#menu{
 	padding-top:10px;
 }
 .day-meal ul{list-style-type: none;}
-
+img.float-left{
+	float:left;
+	margin:5px;
+}

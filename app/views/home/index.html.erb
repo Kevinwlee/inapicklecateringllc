@@ -3,7 +3,7 @@
 		<%= image_tag "iaplogofull.png", {:alt => "logo"}%>
 	</div>
 </div>
-<div class="grid_10 welcome">
+<div class="grid_9 suffix_1 welcome">
 	<h1>Home Cooked Meals</h1>
 	<h2>delivered right to your doorstep</h2>
 	<p>
@@ -13,9 +13,9 @@
 		<strong>No mess, no fuss!</strong>
 		</p>
 		<div class="c2a">
-			<%= image_tag "c2a.png", {:alt => "Call Us"}%>
-			<br/>
-			<em><a href="mailto:kevin@qtechnologycompany.com">Or Email Me :)</a></em>
+			<h2>$30.00 (plus tax)</h2>
+			<h3>includes meal, salad and a side.  Additional sides are available for 5.95 each.</h3>
+			<p>Call Alexis <span class="black">555-5555</span> to place your order today!</p>
 		</div>
 </div>
 <br class="clear"/>
@@ -23,7 +23,7 @@
 <% @meals.each do |meal| %>
 <div class="grid_5 day-meal">
 	<h3><strong><%=h meal.day %></strong></h3>
-	<h4><%=meal.title%></h4>
+	<h4><strong><%=meal.title%></strong></h4>
 		<% meal.entrees.each do |entree|%>
 			<p><%=entree.name%></p>
 		<%end%>
