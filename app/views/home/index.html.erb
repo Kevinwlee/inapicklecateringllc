@@ -19,64 +19,26 @@
 		</div>
 </div>
 <br class="clear"/>
-<div class="grid_4 day-meal">
-	<h3><strong>Monday</strong></h3>
-	<h4>Chicken and Roasted Corn Enchiladas or Stuffed Bell Peppers
-	</h4>
-	<h5>Your Choice of Sides (pick 2):</h5>
+<div class="prefix_2"><p></p></div>
+<% @meals.each do |meal| %>
+<div class="grid_5 day-meal">
+	<h3><strong><%=h meal.day %></strong></h3>
+	<h4><%=meal.title%></h4>
+		<% meal.entrees.each do |entree|%>
+			<p><%=entree.name%></p>
+		<%end%>
+	<h5><%=h meal.side_title %></h5>
 	<ul>
-		<li>Mexican Rice</li>
-		<li>Refried Beans</li>
-		<li>Black Beans</li>
-		<li>Guacamole and Chips</li>
-		<li>Queso and Chips</li>
+		<% meal.side_items.each do |item|%>
+			<li><%=item.description%></li>
+		<%end%>
 	</ul>
-	<h5>Fresh Green Salad:</h5>
+	<h5><%=h meal.other_title %></h5>
 	<ul>
-		<li>Southwestern</li>
-		<li>Greek Caesar</li>
-		<li>Balsamic Vinaigrette</li>
-		<li>Honey Mustard</li>
+		<% meal.other_items.each do |other|%>
+			<li><%=other.description%></li>
+		<%end%>
 	<ul>
 </div>
-<div class="grid_4 day-meal">
-	<h3><strong>Tuesday</strong></h3>
-	<h4>Turkey Meatloaf</h4>
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-	<ul>
-		<li>item 1</li>
-		<li>item 2</li>
-		<li>item 3</li>
-	</ul>
-</div>
-<div class="grid_4 day-meal">
-	<h3><strong>Wednesday</strong></h3>
-	<h4>Title of meal</h4>
-	<p>Description (optional) Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-	<h5>Custom Description</h5>
-	<ul>
-		<li>Side 1</li>
-		<li>Side 2</li>
-		<li>Side 3</li>
-		<li>Side ...</li>
-	</ul>
-	<h5>Custom Description:</h5>
-	<ul>
-		<li>Dressing 1</li>
-		<li>Dressing 2</li>
-		<li>Dressing 3</li>
-		<li>Dressing ...</li>
-	<ul>
-</div>
-<div class="grid_4 day-meal">
-	<h3><strong>Thursday</strong></h3>
-	<h4>Fish and Chips</h4>
-	<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-	<ul>
-		<li>item 1</li>
-		<li>item 2</li>
-		<li>item 3</li>
-	</ul>
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, </p>
-</div>
+<%end%>
 <br class="clear"/>

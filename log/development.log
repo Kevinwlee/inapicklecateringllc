@@ -5016,3 +5016,1635 @@ DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :data
 Rendering template within layouts/application
 Rendering meals/index
 Completed in 27ms (View: 10, DB: 1) | 200 OK [http://localhost/meals]
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from <class:User> at /Users/kevin/Sites/inapicklecateringllc/app/models/user.rb:4)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-04 19:44:33) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 289ms (View: 287, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-04 19:44:44) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-04 19:45:46) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-04 19:46:10) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-10-04 19:46:21) [GET]
+Rendering template within layouts/application
+Rendering home/about
+Completed in 37ms (View: 36, DB: 0) | 200 OK [http://localhost/home/about]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-04 19:46:23) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-10-04 19:46:26) [GET]
+Rendering template within layouts/application
+Rendering home/about
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/home/about]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-04 19:46:27) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-04 19:55:51) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 14ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-10-04 19:56:07) [GET]
+Rendering template within layouts/application
+Rendering home/about
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/home/about]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-04 19:56:09) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-04 20:20:34) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 13ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-04 20:21:07) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-04 20:22:51) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-04 20:23:13) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-04 20:23:23) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-04 20:23:44) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-04 20:24:02) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-04 20:24:46) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-04 20:25:01) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-04 20:25:15) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-04 20:28:06) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-04 20:28:09) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-04 20:29:37) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-04 20:30:00) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-04 20:30:46) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-04 20:31:23) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-04 20:31:38) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-04 20:31:49) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-04 20:32:07) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-04 20:32:38) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-04 20:33:03) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-04 20:33:22) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-04 20:33:53) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-04 20:44:26) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-04 20:55:15) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-04 20:57:10) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-04 20:57:42) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-04 20:58:08) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-04 20:59:34) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-04 21:00:46) [GET]
+
+ActionController::RoutingError (No route matches "/sign_in" with {:method=>:get}):
+  warden (0.10.7) lib/warden/manager.rb:35:in `block in call'
+  warden (0.10.7) lib/warden/manager.rb:34:in `catch'
+  warden (0.10.7) lib/warden/manager.rb:34:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /Users/kevin/.rvm/rubies/ruby-1.9.1-p378/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/kevin/.rvm/rubies/ruby-1.9.1-p378/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/kevin/.rvm/rubies/ruby-1.9.1-p378/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-04 21:00:52) [GET]
+
+ActionController::RoutingError (No route matches "/sign_up" with {:method=>:get}):
+  warden (0.10.7) lib/warden/manager.rb:35:in `block in call'
+  warden (0.10.7) lib/warden/manager.rb:34:in `catch'
+  warden (0.10.7) lib/warden/manager.rb:34:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /Users/kevin/.rvm/rubies/ruby-1.9.1-p378/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/kevin/.rvm/rubies/ruby-1.9.1-p378/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/kevin/.rvm/rubies/ruby-1.9.1-p378/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from <class:User> at /Users/kevin/Sites/inapicklecateringllc/app/models/user.rb:4)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-04 21:02:08) [GET]
+Rendering template within layouts/application
+Rendering home/index
+ERROR: compiling _run_erb_app47views47layouts47application46html46erb RAISED /Users/kevin/Sites/inapicklecateringllc/app/views/layouts/application.html.erb:40: syntax error, unexpected tSTRING_BEG, expecting tASSOC
+... :controller=>"user", :action="sign_in").to_s); @output_buff...
+...                               ^
+Function body:           def _run_erb_app47views47layouts47application46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"\n       \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\">\n<head>\n \t<meta http-equiv=\"content-type\" content=\"text/html;charset=UTF-8\" />\n\t<title>In a Pickle Catering LLC.</title>\n\t"
+
+
+
+
+
+; @output_buffer.concat(( stylesheet_link_tag :all ).to_s); @output_buffer.concat "\n\t<link href='http://fonts.googleapis.com/css?family=Tangerine:regular,bold' rel='stylesheet' type='text/css'>\n\t<link href='http://fonts.googleapis.com/css?family=Inconsolata&subset=latin' rel='stylesheet' type='text/css'>\n\t<link href='http://fonts.googleapis.com/css?family=Droid+Sans&subset=latin' rel='stylesheet' type='text/css'>\n\t<link href='http://fonts.googleapis.com/css?family=Josefin+Sans+Std+Light&subset=latin' rel='stylesheet' type='text/css'>\n\t<script type=\"text/javascript\" src=\"http://use.typekit.com/nhb6xsn.js\"></script>\n\t<script type=\"text/javascript\">try{Typekit.load();}catch(e){}</script>\n\t"
+
+
+
+
+
+
+; @output_buffer.concat(( javascript_include_tag :defaults ).to_s); @output_buffer.concat "\n\t\n</head>\n\n<body>\n<div id=\"header\">\n\t<div id=\"header-inner\" class=\"container_16\">\n\t\t<div class=\"grid_6\">\n\t\t\t<span id=\"logo\">In a Pickle Catering</span>\n\t\t</div>\n\t\t<ul id=\"menu\" class=\"grid_10\">\n\t\t\t<li>"
+
+
+
+
+
+
+
+
+
+
+; @output_buffer.concat((link_to "Home",:controller=>"home", :action =>"index").to_s); @output_buffer.concat "</li>\n\t\t\t<li>"
+; @output_buffer.concat((link_to "About", :controller=>"home", :action => "about").to_s); @output_buffer.concat "</li>\n\t\t</ul>\n\t</div>\t\n</div>\n\n<div id=\"content\">\n\t<div id=\"content-inner\" class=\"container_16\">\n\t\t"
+
+
+
+
+
+
+; @output_buffer.concat(( yield).to_s); @output_buffer.concat "\n\t</div>\t\n</div>\n\n<div id=\"footer\">\n\t<div id=\"footer-inner\" class=\"container_16\">\n\t\t<span class=\"grid_16 cl\"></span>\n\t\t"
+
+
+
+
+
+
+; @output_buffer.concat((link_to "Sign In", :controller=>"user", :action="sign_in").to_s); @output_buffer.concat "\n\t</div>\t\n</div>\n\n</body>\n</html>\n\n"
+
+
+
+
+
+
+; @output_buffer.force_encoding(__ENCODING__)
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/kevin/.rvm/gems/ruby-1.9.1-p378/gems/actionpack-2.3.5/lib/action_view/renderable.rb:77:in `module_eval'
+/Users/kevin/.rvm/gems/ruby-1.9.1-p378/gems/actionpack-2.3.5/lib/action_view/renderable.rb:77:in `compile!'
+/Users/kevin/.rvm/gems/ruby-1.9.1-p378/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+/Users/kevin/.rvm/gems/ruby-1.9.1-p378/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+/Users/kevin/.rvm/gems/ruby-1.9.1-p378/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+/Users/kevin/.rvm/gems/ruby-1.9.1-p378/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
+/Users/kevin/.rvm/gems/ruby-1.9.1-p378/gems/actionpack-2.3.5/lib/action_view/base.rb:352:in `_render_with_layout'
+/Users/kevin/.rvm/gems/ruby-1.9.1-p378/gems/actionpack-2.3.5/lib/action_view/base.rb:262:in `render'
+/Users/kevin/.rvm/gems/ruby-1.9.1-p378/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+/Users/kevin/.rvm/gems/ruby-1.9.1-p378/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render'
+/Users/kevin/.rvm/gems/ruby-1.9.1-p378/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `block in render_with_benchmark'
+/Users/kevin/.rvm/gems/ruby-1.9.1-p378/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `block in ms'
+/Users/kevin/.rvm/rubies/ruby-1.9.1-p378/lib/ruby/1.9.1/benchmark.rb:309:in `realtime'
+/Users/kevin/.rvm/gems/ruby-1.9.1-p378/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/kevin/.rvm/gems/ruby-1.9.1-p378/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render_with_benchmark'
+/Users/kevin/.rvm/gems/ruby-1.9.1-p378/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+/Users/kevin/.rvm/gems/ruby-1.9.1-p378/gems/actionpack-2.3.5/lib/action_controller/base.rb:1332:in `perform_action'
+/Users/kevin/.rvm/gems/ruby-1.9.1-p378/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+/Users/kevin/.rvm/gems/ruby-1.9.1-p378/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_with_filters'
+/Users/kevin/.rvm/gems/ruby-1.9.1-p378/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `block in perform_action_with_benchmark'
+/Users/kevin/.rvm/gems/ruby-1.9.1-p378/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `block in ms'
+/Users/kevin/.rvm/rubies/ruby-1.9.1-p378/lib/ruby/1.9.1/benchmark.rb:309:in `realtime'
+/Users/kevin/.rvm/gems/ruby-1.9.1-p378/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/kevin/.rvm/gems/ruby-1.9.1-p378/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_with_benchmark'
+/Users/kevin/.rvm/gems/ruby-1.9.1-p378/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_with_rescue'
+/Users/kevin/.rvm/gems/ruby-1.9.1-p378/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action_with_flash'
+/Users/kevin/.rvm/gems/ruby-1.9.1-p378/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process'
+/Users/kevin/.rvm/gems/ruby-1.9.1-p378/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process_with_filters'
+/Users/kevin/.rvm/gems/ruby-1.9.1-p378/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+/Users/kevin/.rvm/gems/ruby-1.9.1-p378/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+/Users/kevin/.rvm/gems/ruby-1.9.1-p378/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+/Users/kevin/.rvm/gems/ruby-1.9.1-p378/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Users/kevin/.rvm/gems/ruby-1.9.1-p378/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+/Users/kevin/.rvm/gems/ruby-1.9.1-p378/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `block in build_middleware_stack'
+/Users/kevin/.rvm/gems/ruby-1.9.1-p378/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/Users/kevin/.rvm/gems/ruby-1.9.1-p378/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `block in call'
+/Users/kevin/.rvm/gems/ruby-1.9.1-p378/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Users/kevin/.rvm/gems/ruby-1.9.1-p378/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+/Users/kevin/.rvm/gems/ruby-1.9.1-p378/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+/Users/kevin/.rvm/gems/ruby-1.9.1-p378/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Users/kevin/.rvm/gems/ruby-1.9.1-p378/gems/warden-0.10.7/lib/warden/manager.rb:35:in `block in call'
+/Users/kevin/.rvm/gems/ruby-1.9.1-p378/gems/warden-0.10.7/lib/warden/manager.rb:34:in `catch'
+/Users/kevin/.rvm/gems/ruby-1.9.1-p378/gems/warden-0.10.7/lib/warden/manager.rb:34:in `call'
+/Users/kevin/.rvm/gems/ruby-1.9.1-p378/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+/Users/kevin/.rvm/gems/ruby-1.9.1-p378/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/Users/kevin/.rvm/gems/ruby-1.9.1-p378/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/Users/kevin/.rvm/gems/ruby-1.9.1-p378/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+/Users/kevin/.rvm/gems/ruby-1.9.1-p378/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+/Users/kevin/.rvm/gems/ruby-1.9.1-p378/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+/Users/kevin/.rvm/gems/ruby-1.9.1-p378/gems/rack-1.0.1/lib/rack/lock.rb:11:in `block in call'
+<internal:prelude>:8:in `synchronize'
+/Users/kevin/.rvm/gems/ruby-1.9.1-p378/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/Users/kevin/.rvm/gems/ruby-1.9.1-p378/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `block in call'
+/Users/kevin/.rvm/gems/ruby-1.9.1-p378/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+/Users/kevin/.rvm/gems/ruby-1.9.1-p378/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+/Users/kevin/.rvm/gems/ruby-1.9.1-p378/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+/Users/kevin/.rvm/gems/ruby-1.9.1-p378/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `block in call'
+/Users/kevin/.rvm/gems/ruby-1.9.1-p378/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/Users/kevin/.rvm/gems/ruby-1.9.1-p378/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/Users/kevin/.rvm/gems/ruby-1.9.1-p378/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+/Users/kevin/.rvm/gems/ruby-1.9.1-p378/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/Users/kevin/.rvm/gems/ruby-1.9.1-p378/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+/Users/kevin/.rvm/rubies/ruby-1.9.1-p378/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+/Users/kevin/.rvm/rubies/ruby-1.9.1-p378/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+/Users/kevin/.rvm/rubies/ruby-1.9.1-p378/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+ActionView::TemplateError (/Users/kevin/Sites/inapicklecateringllc/app/views/layouts/application.html.erb:40: syntax error, unexpected tSTRING_BEG, expecting tASSOC
+... :controller=>"user", :action="sign_in").to_s); @output_buff...
+...                               ^) on line #40 of app/views/layouts/application.html.erb:
+37: <div id="footer">
+38: 	<div id="footer-inner" class="container_16">
+39: 		<span class="grid_16 cl"></span>
+40: 		<%=link_to "Sign In", :controller=>"user", :action="sign_in"%>
+41: 	</div>	
+42: </div>
+43: 
+
+    warden (0.10.7) lib/warden/manager.rb:35:in `block in call'
+    warden (0.10.7) lib/warden/manager.rb:34:in `catch'
+    warden (0.10.7) lib/warden/manager.rb:34:in `call'
+    <internal:prelude>:8:in `synchronize'
+    /Users/kevin/.rvm/rubies/ruby-1.9.1-p378/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /Users/kevin/.rvm/rubies/ruby-1.9.1-p378/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /Users/kevin/.rvm/rubies/ruby-1.9.1-p378/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (84.1ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-04 21:02:28) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 14ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-04 21:02:32) [GET]
+
+ActionController::RoutingError (No route matches "/user/sign_in" with {:method=>:get}):
+  warden (0.10.7) lib/warden/manager.rb:35:in `block in call'
+  warden (0.10.7) lib/warden/manager.rb:34:in `catch'
+  warden (0.10.7) lib/warden/manager.rb:34:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /Users/kevin/.rvm/rubies/ruby-1.9.1-p378/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/kevin/.rvm/rubies/ruby-1.9.1-p378/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/kevin/.rvm/rubies/ruby-1.9.1-p378/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-04 21:03:15) [GET]
+
+ActionController::RoutingError (No route matches "/user/sign_in" with {:method=>:get}):
+  warden (0.10.7) lib/warden/manager.rb:35:in `block in call'
+  warden (0.10.7) lib/warden/manager.rb:34:in `catch'
+  warden (0.10.7) lib/warden/manager.rb:34:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /Users/kevin/.rvm/rubies/ruby-1.9.1-p378/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/kevin/.rvm/rubies/ruby-1.9.1-p378/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/kevin/.rvm/rubies/ruby-1.9.1-p378/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-04 21:03:21) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-10-04 21:03:24) [GET]
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from <class:User> at /Users/kevin/Sites/inapicklecateringllc/app/models/user.rb:4)
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered shared/_devise_links (2.1ms)
+Completed in 63ms (View: 32, DB: 0) | 200 OK [http://localhost/users/sign_in]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-04 21:03:29) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-10-04 21:03:31) [GET]
+Rendering template within layouts/application
+Rendering home/about
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/home/about]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-10-04 21:03:34) [GET]
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from <class:User> at /Users/kevin/Sites/inapicklecateringllc/app/models/user.rb:4)
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered shared/_devise_links (2.9ms)
+Completed in 18ms (View: 10, DB: 0) | 200 OK [http://localhost/users/sign_in]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-10-04 21:03:52) [POST]
+  Parameters: {"authenticity_token"=>"v5S56Ti6LmMshX6GMM5rC7/Xfn09zhcis3zNLHFcnss=", "user"=>{"email"=>"alexis@inapicklecateringllc.com", "password"=>"clubdv8", "remember_me"=>"0"}, "commit"=>"Sign in"}
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from <class:User> at /Users/kevin/Sites/inapicklecateringllc/app/models/user.rb:4)
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from <class:User> at /Users/kevin/Sites/inapicklecateringllc/app/models/user.rb:4)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-04 21:04:21) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 89ms (View: 87, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-10-04 21:04:24) [GET]
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from <class:User> at /Users/kevin/Sites/inapicklecateringllc/app/models/user.rb:4)
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered shared/_devise_links (1.6ms)
+Completed in 38ms (View: 30, DB: 0) | 200 OK [http://localhost/users/sign_in]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-10-04 21:04:45) [POST]
+  Parameters: {"authenticity_token"=>"v5S56Ti6LmMshX6GMM5rC7/Xfn09zhcis3zNLHFcnss=", "user"=>{"email"=>"kevin@qtechnologycompany.com", "password"=>"clubdv8", "remember_me"=>"0"}, "commit"=>"Sign in"}
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from <class:User> at /Users/kevin/Sites/inapicklecateringllc/app/models/user.rb:4)
+  [4;36;1mUser Load (12.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."email" = 'kevin@qtechnologycompany.com') LIMIT 1[0m
+WARNING: Can't mass-assign these protected attributes: remember_me
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered shared/_devise_links (0.3ms)
+Completed in 230ms (View: 4, DB: 13) | 200 OK [http://localhost/users/sign_in]
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from <class:User> at /Users/kevin/Sites/inapicklecateringllc/app/models/user.rb:4)
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM "users" [0m
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-10-04 21:05:43) [POST]
+  Parameters: {"authenticity_token"=>"v5S56Ti6LmMshX6GMM5rC7/Xfn09zhcis3zNLHFcnss=", "user"=>{"email"=>"kevin@nervousyak.com", "password"=>"clubdv8", "remember_me"=>"0"}, "commit"=>"Sign in"}
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from <class:User> at /Users/kevin/Sites/inapicklecateringllc/app/models/user.rb:4)
+  [4;35;1mUser Load (0.8ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."email" = 'kevin@nervousyak.com') LIMIT 1[0m
+  [4;36;1mUser Update (0.5ms)[0m   [0;1mUPDATE "users" SET "current_sign_in_at" = '2010-10-05 02:05:43', "sign_in_count" = 2, "updated_at" = '2010-10-05 02:05:43' WHERE "id" = 1[0m
+Redirected to http://localhost:3000/
+Completed in 296ms (DB: 1) | 302 Found [http://localhost/users/sign_in]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-04 21:05:43) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MealsController#index (for 127.0.0.1 at 2010-10-04 21:05:53) [GET]
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from <class:User> at /Users/kevin/Sites/inapicklecateringllc/app/models/user.rb:4)
+  [4;35;1mUser Load (0.7ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mMeal Load (1.2ms)[0m   [0;1mSELECT * FROM "meals" [0m
+Rendering template within layouts/application
+Rendering meals/index
+Completed in 126ms (View: 50, DB: 2) | 200 OK [http://localhost/meals]
+
+
+Processing MealsController#show (for 127.0.0.1 at 2010-10-04 21:05:58) [GET]
+  Parameters: {"id"=>"7"}
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from <class:User> at /Users/kevin/Sites/inapicklecateringllc/app/models/user.rb:4)
+  [4;35;1mUser Load (0.8ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mMeal Load (0.3ms)[0m   [0;1mSELECT * FROM "meals" WHERE ("meals"."id" = 7) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."id" = 7) [0m
+Rendering template within layouts/application
+Rendering meals/show
+  [4;36;1mEntree Load (0.2ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 7) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 7) [0m
+  [4;36;1mDressing Load (0.2ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 7) [0m
+Completed in 134ms (View: 114, DB: 2) | 200 OK [http://localhost/meals/7]
+
+
+Processing MealsController#edit (for 127.0.0.1 at 2010-10-04 21:06:02) [GET]
+  Parameters: {"id"=>"7"}
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from <class:User> at /Users/kevin/Sites/inapicklecateringllc/app/models/user.rb:4)
+  [4;35;1mUser Load (0.7ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mMeal Load (0.3ms)[0m   [0;1mSELECT * FROM "meals" WHERE ("meals"."id" = 7) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."id" = 7) [0m
+  [4;36;1mSide Load (1.8ms)[0m   [0;1mSELECT * FROM "sides" [0m
+  [4;35;1mEntree Load (1.2ms)[0m   [0mSELECT * FROM "entrees" [0m
+Rendering template within layouts/application
+Rendering meals/edit
+  [4;36;1mEntree Load (0.2ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 7) [0m
+Rendered meals/_entree (18.4ms)
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 7) [0m
+Rendered meals/_side (21.2ms)
+  [4;36;1mDressing Load (0.2ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 7) [0m
+Rendered meals/_other (10.9ms)
+Rendered meals/_form (107.9ms)
+Completed in 231ms (View: 204, DB: 5) | 200 OK [http://localhost/meals/7/edit]
+
+
+Processing MealsController#update (for 127.0.0.1 at 2010-10-04 21:06:33) [PUT]
+  Parameters: {"authenticity_token"=>"v5S56Ti6LmMshX6GMM5rC7/Xfn09zhcis3zNLHFcnss=", "meal"=>{"title"=>"Meal 7", "side_title"=>"With Many Sides", "side_attributes"=>[{"description"=>"test"}, {"description"=>"test"}, {"description"=>"test"}], "other_title"=>"And Salads", "day"=>"Thursday", "published"=>"1"}, "commit"=>"Submit", "id"=>"7"}
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from <class:User> at /Users/kevin/Sites/inapicklecateringllc/app/models/user.rb:4)
+  [4;35;1mUser Load (0.7ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mMeal Load (0.3ms)[0m   [0;1mSELECT * FROM "meals" WHERE ("meals"."id" = 7) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."id" = 7) [0m
+  [4;36;1mMeal Update (0.3ms)[0m   [0;1mUPDATE "meals" SET "day" = 'Thursday', "published" = 't', "updated_at" = '2010-10-05 02:06:33' WHERE "id" = 7[0m
+  [4;35;1mSide Create (0.2ms)[0m   [0mINSERT INTO "sides" ("description", "created_at", "updated_at", "meal_id") VALUES('test', '2010-10-05 02:06:33', '2010-10-05 02:06:33', 7)[0m
+  [4;36;1mSide Create (0.1ms)[0m   [0;1mINSERT INTO "sides" ("description", "created_at", "updated_at", "meal_id") VALUES('test', '2010-10-05 02:06:33', '2010-10-05 02:06:33', 7)[0m
+  [4;35;1mSide Create (0.1ms)[0m   [0mINSERT INTO "sides" ("description", "created_at", "updated_at", "meal_id") VALUES('test', '2010-10-05 02:06:33', '2010-10-05 02:06:33', 7)[0m
+Redirected to http://localhost:3000/meals/7
+Completed in 34ms (DB: 2) | 302 Found [http://localhost/meals/7]
+
+
+Processing MealsController#show (for 127.0.0.1 at 2010-10-04 21:06:33) [GET]
+  Parameters: {"id"=>"7"}
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from <class:User> at /Users/kevin/Sites/inapicklecateringllc/app/models/user.rb:4)
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mMeal Load (0.3ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."id" = 7) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "meals" WHERE ("meals"."id" = 7) [0m
+Rendering template within layouts/application
+Rendering meals/show
+  [4;35;1mEntree Load (0.3ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 7) [0m
+  [4;36;1mSide Load (0.4ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 7) [0m
+  [4;35;1mDressing Load (0.2ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 7) [0m
+Completed in 75ms (View: 56, DB: 2) | 200 OK [http://localhost/meals/7]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-04 21:06:40) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-10-04 21:06:44) [GET]
+Rendering template within layouts/application
+Rendering home/about
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://localhost/home/about]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-04 21:06:45) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-10-04 21:07:34) [GET]
+Rendering template within layouts/application
+Rendering home/about
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/home/about]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-04 21:07:37) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-04 21:08:52) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-04 21:09:02) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MealsController#index (for 127.0.0.1 at 2010-10-04 21:10:54) [GET]
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from <class:User> at /Users/kevin/Sites/inapicklecateringllc/app/models/user.rb:4)
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mMeal Load (0.8ms)[0m   [0mSELECT * FROM "meals" [0m
+Rendering template within layouts/application
+Rendering meals/index
+Completed in 27ms (View: 10, DB: 1) | 200 OK [http://localhost/meals]
+
+
+Processing MealsController#show (for 127.0.0.1 at 2010-10-04 21:10:59) [GET]
+  Parameters: {"id"=>"7"}
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from <class:User> at /Users/kevin/Sites/inapicklecateringllc/app/models/user.rb:4)
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mMeal Load (0.3ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."id" = 7) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "meals" WHERE ("meals"."id" = 7) [0m
+Rendering template within layouts/application
+Rendering meals/show
+  [4;35;1mEntree Load (0.2ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 7) [0m
+  [4;36;1mSide Load (0.4ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 7) [0m
+  [4;35;1mDressing Load (0.2ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 7) [0m
+Completed in 65ms (View: 14, DB: 2) | 200 OK [http://localhost/meals/7]
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from <class:User> at /Users/kevin/Sites/inapicklecateringllc/app/models/user.rb:4)
+  [4;36;1mMeal Load (0.7ms)[0m   [0;1mSELECT * FROM "meals" LIMIT 1[0m
+  [4;35;1mMeal Load (0.8ms)[0m   [0mSELECT * FROM "meals" LIMIT 3[0m
+  [4;36;1mMeal Load (0.4ms)[0m   [0;1mSELECT * FROM "meals" WHERE ("meals"."published" = 't') LIMIT 3[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-04 21:20:28) [GET]
+  [4;36;1mMeal Load (0.7ms)[0m   [0;1mSELECT * FROM "meals" WHERE ("meals"."published" = 't') LIMIT 3[0m
+Rendering template within layouts/application
+Rendering home/index
+Completed in 8ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-04 21:24:11) [GET]
+  [4;35;1mMeal Load (0.7ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."published" = 't') LIMIT 3[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mEntree Load (0.2ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 7) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 7) [0m
+  [4;36;1mDressing Load (0.2ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 7) [0m
+  [4;35;1mEntree Load (0.3ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 12) [0m
+  [4;36;1mSide Load (0.3ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 12) [0m
+  [4;35;1mDressing Load (0.3ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 12) [0m
+Completed in 36ms (View: 28, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-04 21:25:14) [GET]
+  [4;36;1mMeal Load (0.8ms)[0m   [0;1mSELECT * FROM "meals" WHERE ("meals"."published" = 't') LIMIT 3[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mEntree Load (0.2ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 7) [0m
+  [4;36;1mSide Load (0.3ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 7) [0m
+  [4;35;1mDressing Load (0.2ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 7) [0m
+  [4;36;1mEntree Load (0.3ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 12) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 12) [0m
+  [4;36;1mDressing Load (0.3ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 12) [0m
+Completed in 73ms (View: 65, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-04 21:25:32) [GET]
+  [4;35;1mMeal Load (0.8ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."published" = 't') LIMIT 3[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mEntree Load (0.2ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 7) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 7) [0m
+  [4;36;1mDressing Load (0.2ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 7) [0m
+  [4;35;1mEntree Load (0.3ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 12) [0m
+  [4;36;1mSide Load (0.3ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 12) [0m
+  [4;35;1mDressing Load (0.3ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 12) [0m
+Completed in 36ms (View: 28, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-04 21:26:10) [GET]
+  [4;36;1mMeal Load (0.7ms)[0m   [0;1mSELECT * FROM "meals" WHERE ("meals"."published" = 't') LIMIT 3[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mEntree Load (0.2ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 7) [0m
+  [4;36;1mSide Load (0.4ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 7) [0m
+  [4;35;1mDressing Load (0.2ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 7) [0m
+  [4;36;1mEntree Load (0.3ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 12) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 12) [0m
+  [4;36;1mDressing Load (0.3ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 12) [0m
+Completed in 37ms (View: 29, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing MealsController#index (for 127.0.0.1 at 2010-10-04 21:26:28) [GET]
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from <class:User> at /Users/kevin/Sites/inapicklecateringllc/app/models/user.rb:4)
+  [4;35;1mUser Load (0.9ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mMeal Load (0.8ms)[0m   [0;1mSELECT * FROM "meals" [0m
+Rendering template within layouts/application
+Rendering meals/index
+Completed in 30ms (View: 11, DB: 2) | 200 OK [http://localhost/meals]
+
+
+Processing MealsController#show (for 127.0.0.1 at 2010-10-04 21:26:37) [GET]
+  Parameters: {"id"=>"11"}
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from <class:User> at /Users/kevin/Sites/inapicklecateringllc/app/models/user.rb:4)
+  [4;35;1mUser Load (0.7ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mMeal Load (0.3ms)[0m   [0;1mSELECT * FROM "meals" WHERE ("meals"."id" = 11) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."id" = 11) [0m
+Rendering template within layouts/application
+Rendering meals/show
+  [4;36;1mEntree Load (0.4ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 11) [0m
+  [4;35;1mSide Load (0.6ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 11) [0m
+  [4;36;1mDressing Load (0.2ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 11) [0m
+Completed in 72ms (View: 53, DB: 2) | 200 OK [http://localhost/meals/11]
+
+
+Processing MealsController#edit (for 127.0.0.1 at 2010-10-04 21:26:39) [GET]
+  Parameters: {"id"=>"11"}
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from <class:User> at /Users/kevin/Sites/inapicklecateringllc/app/models/user.rb:4)
+  [4;35;1mUser Load (0.7ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mMeal Load (0.3ms)[0m   [0;1mSELECT * FROM "meals" WHERE ("meals"."id" = 11) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."id" = 11) [0m
+  [4;36;1mSide Load (1.9ms)[0m   [0;1mSELECT * FROM "sides" [0m
+  [4;35;1mEntree Load (1.2ms)[0m   [0mSELECT * FROM "entrees" [0m
+Rendering template within layouts/application
+Rendering meals/edit
+  [4;36;1mEntree Load (0.4ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 11) [0m
+Rendered meals/_entree (2.9ms)
+Rendered meals/_entree (0.3ms)
+Rendered meals/_entree (0.3ms)
+Rendered meals/_entree (0.3ms)
+  [4;35;1mSide Load (0.5ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 11) [0m
+Rendered meals/_side (2.6ms)
+Rendered meals/_side (0.3ms)
+Rendered meals/_side (0.3ms)
+Rendered meals/_side (0.3ms)
+Rendered meals/_side (0.3ms)
+Rendered meals/_side (0.3ms)
+Rendered meals/_side (0.3ms)
+  [4;36;1mDressing Load (0.2ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 11) [0m
+Rendered meals/_other (1.5ms)
+Rendered meals/_form (22.4ms)
+Completed in 52ms (View: 24, DB: 5) | 200 OK [http://localhost/meals/11/edit]
+
+
+Processing MealsController#update (for 127.0.0.1 at 2010-10-04 21:26:43) [PUT]
+  Parameters: {"authenticity_token"=>"v5S56Ti6LmMshX6GMM5rC7/Xfn09zhcis3zNLHFcnss=", "meal"=>{"title"=>"Turkey with pepper and ham", "entree_attributes"=>{"10"=>{"name"=>"Turkey"}, "11"=>{"name"=>"Bell Pepper"}, "12"=>{"name"=>"Honey Ham"}}, "side_title"=>"Your choice of 2 sides", "side_attributes"=>{"16"=>{"description"=>"Mashed Potatoes"}, "17"=>{"description"=>"Broc"}, "18"=>{"description"=>"spinach"}, "19"=>{"description"=>"carrots"}, "20"=>{"description"=>"Balsalmic"}, "21"=>{"description"=>"Vineger"}}, "other_title"=>"Your choice of salad", "day"=>"Monday", "published"=>"1"}, "commit"=>"Submit", "id"=>"11"}
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from <class:User> at /Users/kevin/Sites/inapicklecateringllc/app/models/user.rb:4)
+  [4;35;1mUser Load (0.7ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mMeal Load (0.2ms)[0m   [0;1mSELECT * FROM "meals" WHERE ("meals"."id" = 11) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."id" = 11) [0m
+
+NoMethodError (undefined method `stringify_keys!' for "10":String):
+  app/models/meal.rb:8:in `block in entree_attributes='
+  app/models/meal.rb:7:in `each'
+  app/models/meal.rb:7:in `entree_attributes='
+  app/controllers/meals_controller.rb:70:in `block in update'
+  app/controllers/meals_controller.rb:69:in `update'
+  warden (0.10.7) lib/warden/manager.rb:35:in `block in call'
+  warden (0.10.7) lib/warden/manager.rb:34:in `catch'
+  warden (0.10.7) lib/warden/manager.rb:34:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /Users/kevin/.rvm/rubies/ruby-1.9.1-p378/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/kevin/.rvm/rubies/ruby-1.9.1-p378/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/kevin/.rvm/rubies/ruby-1.9.1-p378/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from <class:User> at /Users/kevin/Sites/inapicklecateringllc/app/models/user.rb:4)
+
+
+Processing MealsController#show (for 127.0.0.1 at 2010-10-04 21:27:03) [GET]
+  Parameters: {"id"=>"11"}
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mMeal Load (0.3ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."id" = 11) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "meals" WHERE ("meals"."id" = 11) [0m
+Rendering template within layouts/application
+Rendering meals/show
+  [4;35;1mEntree Load (0.4ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 11) [0m
+  [4;36;1mSide Load (0.5ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 11) [0m
+  [4;35;1mDressing Load (0.2ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 11) [0m
+Completed in 111ms (View: 45, DB: 2) | 200 OK [http://localhost/meals/11]
+
+
+Processing MealsController#edit (for 127.0.0.1 at 2010-10-04 21:27:07) [GET]
+  Parameters: {"id"=>"11"}
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from <class:User> at /Users/kevin/Sites/inapicklecateringllc/app/models/user.rb:4)
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mMeal Load (0.3ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."id" = 11) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "meals" WHERE ("meals"."id" = 11) [0m
+  [4;35;1mSide Load (2.0ms)[0m   [0mSELECT * FROM "sides" [0m
+  [4;36;1mEntree Load (1.2ms)[0m   [0;1mSELECT * FROM "entrees" [0m
+Rendering template within layouts/application
+Rendering meals/edit
+  [4;35;1mEntree Load (0.5ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 11) [0m
+Rendered meals/_entree (3.3ms)
+Rendered meals/_entree (0.3ms)
+Rendered meals/_entree (0.3ms)
+Rendered meals/_entree (0.8ms)
+  [4;36;1mSide Load (0.5ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 11) [0m
+Rendered meals/_side (2.9ms)
+Rendered meals/_side (0.3ms)
+Rendered meals/_side (0.3ms)
+Rendered meals/_side (0.3ms)
+Rendered meals/_side (0.3ms)
+Rendered meals/_side (0.3ms)
+Rendered meals/_side (0.7ms)
+  [4;35;1mDressing Load (0.2ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 11) [0m
+Rendered meals/_other (2.3ms)
+Rendered meals/_form (81.4ms)
+Completed in 128ms (View: 100, DB: 5) | 200 OK [http://localhost/meals/11/edit]
+
+
+Processing MealsController#update (for 127.0.0.1 at 2010-10-04 21:27:11) [PUT]
+  Parameters: {"authenticity_token"=>"v5S56Ti6LmMshX6GMM5rC7/Xfn09zhcis3zNLHFcnss=", "meal"=>{"title"=>"Turkey with pepper and ham", "entree_attributes"=>{"10"=>{"name"=>"Turkey"}, "11"=>{"name"=>"Bell Pepper"}, "12"=>{"name"=>"Honey Ham"}}, "side_title"=>"Your choice of 2 sides", "side_attributes"=>{"16"=>{"description"=>"Mashed Potatoes"}, "17"=>{"description"=>"Broc"}, "18"=>{"description"=>"spinach"}, "19"=>{"description"=>"carrots"}, "20"=>{"description"=>"Balsalmic"}, "21"=>{"description"=>"Vineger"}}, "other_title"=>"Your choice of salad", "day"=>"Monday", "published"=>"1"}, "commit"=>"Submit", "id"=>"11"}
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from <class:User> at /Users/kevin/Sites/inapicklecateringllc/app/models/user.rb:4)
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mMeal Load (0.2ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."id" = 11) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "meals" WHERE ("meals"."id" = 11) [0m
+
+NoMethodError (undefined method `stringify_keys!' for "10":String):
+  app/models/meal.rb:8:in `block in entree_attributes='
+  app/models/meal.rb:7:in `each'
+  app/models/meal.rb:7:in `entree_attributes='
+  app/controllers/meals_controller.rb:70:in `block in update'
+  app/controllers/meals_controller.rb:69:in `update'
+  warden (0.10.7) lib/warden/manager.rb:35:in `block in call'
+  warden (0.10.7) lib/warden/manager.rb:34:in `catch'
+  warden (0.10.7) lib/warden/manager.rb:34:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /Users/kevin/.rvm/rubies/ruby-1.9.1-p378/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/kevin/.rvm/rubies/ruby-1.9.1-p378/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/kevin/.rvm/rubies/ruby-1.9.1-p378/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (87.6ms)
+Rendered rescues/_request_and_response (1.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MealsController#index (for 127.0.0.1 at 2010-10-04 21:27:35) [GET]
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from <class:User> at /Users/kevin/Sites/inapicklecateringllc/app/models/user.rb:4)
+  [4;35;1mUser Load (0.7ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from <class:User> at /Users/kevin/Sites/inapicklecateringllc/app/models/user.rb:4)
+
+
+Processing MealsController#index (for 127.0.0.1 at 2010-10-04 21:27:50) [GET]
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mMeal Load (0.8ms)[0m   [0mSELECT * FROM "meals" [0m
+Rendering template within layouts/application
+Rendering meals/index
+Completed in 97ms (View: 33, DB: 2) | 200 OK [http://localhost/meals]
+
+
+Processing MealsController#show (for 127.0.0.1 at 2010-10-04 21:27:54) [GET]
+  Parameters: {"id"=>"8"}
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from <class:User> at /Users/kevin/Sites/inapicklecateringllc/app/models/user.rb:4)
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mMeal Load (0.2ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."id" = 8) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "meals" WHERE ("meals"."id" = 8) [0m
+Rendering template within layouts/application
+Rendering meals/show
+  [4;35;1mEntree Load (0.2ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 8) [0m
+  [4;36;1mSide Load (0.1ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 8) [0m
+  [4;35;1mDressing Load (0.2ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 8) [0m
+Completed in 44ms (View: 26, DB: 2) | 200 OK [http://localhost/meals/8]
+
+
+Processing MealsController#edit (for 127.0.0.1 at 2010-10-04 21:27:57) [GET]
+  Parameters: {"id"=>"8"}
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from <class:User> at /Users/kevin/Sites/inapicklecateringllc/app/models/user.rb:4)
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mMeal Load (0.3ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."id" = 8) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "meals" WHERE ("meals"."id" = 8) [0m
+  [4;35;1mSide Load (2.0ms)[0m   [0mSELECT * FROM "sides" [0m
+  [4;36;1mEntree Load (1.2ms)[0m   [0;1mSELECT * FROM "entrees" [0m
+Rendering template within layouts/application
+Rendering meals/edit
+  [4;35;1mEntree Load (0.2ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 8) [0m
+Rendered meals/_entree (2.4ms)
+  [4;36;1mSide Load (0.2ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 8) [0m
+Rendered meals/_side (2.4ms)
+  [4;35;1mDressing Load (0.2ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 8) [0m
+Rendered meals/_other (2.3ms)
+Rendered meals/_form (45.4ms)
+Completed in 122ms (View: 94, DB: 5) | 200 OK [http://localhost/meals/8/edit]
+
+
+Processing MealsController#update (for 127.0.0.1 at 2010-10-04 21:27:59) [PUT]
+  Parameters: {"authenticity_token"=>"v5S56Ti6LmMshX6GMM5rC7/Xfn09zhcis3zNLHFcnss=", "meal"=>{"title"=>"Hello", "side_title"=>"Choose from these great sides:", "other_title"=>"test", "day"=>"Thursday", "published"=>"1"}, "commit"=>"Submit", "id"=>"8"}
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from <class:User> at /Users/kevin/Sites/inapicklecateringllc/app/models/user.rb:4)
+  [4;36;1mUser Load (0.9ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mMeal Load (0.3ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."id" = 8) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "meals" WHERE ("meals"."id" = 8) [0m
+  [4;35;1mMeal Update (0.4ms)[0m   [0mUPDATE "meals" SET "published" = 't', "updated_at" = '2010-10-05 02:27:59' WHERE "id" = 8[0m
+Redirected to http://localhost:3000/meals/8
+Completed in 25ms (DB: 2) | 302 Found [http://localhost/meals/8]
+
+
+Processing MealsController#show (for 127.0.0.1 at 2010-10-04 21:27:59) [GET]
+  Parameters: {"id"=>"8"}
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from <class:User> at /Users/kevin/Sites/inapicklecateringllc/app/models/user.rb:4)
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mMeal Load (0.2ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."id" = 8) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "meals" WHERE ("meals"."id" = 8) [0m
+Rendering template within layouts/application
+Rendering meals/show
+  [4;35;1mEntree Load (0.2ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 8) [0m
+  [4;36;1mSide Load (0.2ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 8) [0m
+  [4;35;1mDressing Load (0.2ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 8) [0m
+Completed in 34ms (View: 14, DB: 2) | 200 OK [http://localhost/meals/8]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-04 21:28:06) [GET]
+  [4;36;1mMeal Load (0.8ms)[0m   [0;1mSELECT * FROM "meals" WHERE ("meals"."published" = 't') LIMIT 3[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mEntree Load (0.2ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 7) [0m
+  [4;36;1mSide Load (0.3ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 7) [0m
+  [4;35;1mDressing Load (0.2ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 7) [0m
+  [4;36;1mEntree Load (0.1ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 8) [0m
+  [4;35;1mSide Load (0.1ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 8) [0m
+  [4;36;1mDressing Load (0.1ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 8) [0m
+  [4;35;1mEntree Load (0.3ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 12) [0m
+  [4;36;1mSide Load (0.3ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 12) [0m
+  [4;35;1mDressing Load (0.3ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 12) [0m
+Completed in 40ms (View: 32, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing MealsController#index (for 127.0.0.1 at 2010-10-04 21:28:20) [GET]
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from <class:User> at /Users/kevin/Sites/inapicklecateringllc/app/models/user.rb:4)
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mMeal Load (0.8ms)[0m   [0mSELECT * FROM "meals" [0m
+Rendering template within layouts/application
+Rendering meals/index
+Completed in 28ms (View: 10, DB: 2) | 200 OK [http://localhost/meals]
+
+
+Processing MealsController#edit (for 127.0.0.1 at 2010-10-04 21:28:24) [GET]
+  Parameters: {"id"=>"8"}
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from <class:User> at /Users/kevin/Sites/inapicklecateringllc/app/models/user.rb:4)
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mMeal Load (0.3ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."id" = 8) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "meals" WHERE ("meals"."id" = 8) [0m
+  [4;35;1mSide Load (1.9ms)[0m   [0mSELECT * FROM "sides" [0m
+  [4;36;1mEntree Load (1.2ms)[0m   [0;1mSELECT * FROM "entrees" [0m
+Rendering template within layouts/application
+Rendering meals/edit
+  [4;35;1mEntree Load (0.2ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 8) [0m
+Rendered meals/_entree (1.7ms)
+  [4;36;1mSide Load (0.2ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 8) [0m
+Rendered meals/_side (1.4ms)
+  [4;35;1mDressing Load (0.2ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 8) [0m
+Rendered meals/_other (1.6ms)
+Rendered meals/_form (16.8ms)
+Completed in 46ms (View: 19, DB: 5) | 200 OK [http://localhost/meals/8/edit]
+
+
+Processing MealsController#update (for 127.0.0.1 at 2010-10-04 21:28:31) [PUT]
+  Parameters: {"authenticity_token"=>"v5S56Ti6LmMshX6GMM5rC7/Xfn09zhcis3zNLHFcnss=", "meal"=>{"title"=>"Hello", "side_title"=>"Choose from these great sides:", "other_title"=>"test", "day"=>"Friday", "published"=>"1"}, "commit"=>"Submit", "id"=>"8"}
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from <class:User> at /Users/kevin/Sites/inapicklecateringllc/app/models/user.rb:4)
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mMeal Load (0.2ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."id" = 8) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "meals" WHERE ("meals"."id" = 8) [0m
+  [4;35;1mMeal Update (0.3ms)[0m   [0mUPDATE "meals" SET "day" = 'Friday', "updated_at" = '2010-10-05 02:28:31' WHERE "id" = 8[0m
+Redirected to http://localhost:3000/meals/8
+Completed in 25ms (DB: 1) | 302 Found [http://localhost/meals/8]
+
+
+Processing MealsController#show (for 127.0.0.1 at 2010-10-04 21:28:31) [GET]
+  Parameters: {"id"=>"8"}
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from <class:User> at /Users/kevin/Sites/inapicklecateringllc/app/models/user.rb:4)
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mMeal Load (0.4ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."id" = 8) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "meals" WHERE ("meals"."id" = 8) [0m
+Rendering template within layouts/application
+Rendering meals/show
+  [4;35;1mEntree Load (0.2ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 8) [0m
+  [4;36;1mSide Load (0.2ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 8) [0m
+  [4;35;1mDressing Load (0.2ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 8) [0m
+Completed in 76ms (View: 13, DB: 2) | 200 OK [http://localhost/meals/8]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-04 21:28:34) [GET]
+  [4;36;1mMeal Load (0.8ms)[0m   [0;1mSELECT * FROM "meals" WHERE ("meals"."published" = 't') LIMIT 3[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mEntree Load (0.2ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 7) [0m
+  [4;36;1mSide Load (0.3ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 7) [0m
+  [4;35;1mDressing Load (0.1ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 7) [0m
+  [4;36;1mEntree Load (0.1ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 8) [0m
+  [4;35;1mSide Load (0.1ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 8) [0m
+  [4;36;1mDressing Load (0.1ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 8) [0m
+  [4;35;1mEntree Load (0.3ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 12) [0m
+  [4;36;1mSide Load (0.4ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 12) [0m
+  [4;35;1mDressing Load (0.3ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 12) [0m
+Completed in 28ms (View: 20, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-04 21:29:09) [GET]
+  [4;36;1mMeal Load (0.8ms)[0m   [0;1mSELECT * FROM "meals" WHERE ("meals"."published" = 't') LIMIT 3[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mEntree Load (0.2ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 7) [0m
+  [4;36;1mSide Load (0.3ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 7) [0m
+  [4;35;1mDressing Load (0.1ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 7) [0m
+  [4;36;1mEntree Load (0.1ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 8) [0m
+  [4;35;1mSide Load (0.1ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 8) [0m
+  [4;36;1mDressing Load (0.1ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 8) [0m
+  [4;35;1mEntree Load (0.3ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 12) [0m
+  [4;36;1mSide Load (0.4ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 12) [0m
+  [4;35;1mDressing Load (0.3ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 12) [0m
+Completed in 37ms (View: 29, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-04 21:29:20) [GET]
+  [4;36;1mMeal Load (0.8ms)[0m   [0;1mSELECT * FROM "meals" WHERE ("meals"."published" = 't') LIMIT 3[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mEntree Load (0.2ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 7) [0m
+  [4;36;1mSide Load (0.4ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 7) [0m
+  [4;35;1mDressing Load (0.2ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 7) [0m
+  [4;36;1mEntree Load (0.1ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 8) [0m
+  [4;35;1mSide Load (0.1ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 8) [0m
+  [4;36;1mDressing Load (0.1ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 8) [0m
+  [4;35;1mEntree Load (0.3ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 12) [0m
+  [4;36;1mSide Load (0.4ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 12) [0m
+  [4;35;1mDressing Load (0.3ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 12) [0m
+Completed in 42ms (View: 31, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-04 21:29:35) [GET]
+  [4;36;1mMeal Load (0.8ms)[0m   [0;1mSELECT * FROM "meals" WHERE ("meals"."published" = 't') LIMIT 3[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mEntree Load (0.2ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 7) [0m
+  [4;36;1mSide Load (0.3ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 7) [0m
+  [4;35;1mDressing Load (0.2ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 7) [0m
+  [4;36;1mEntree Load (0.1ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 8) [0m
+  [4;35;1mSide Load (0.1ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 8) [0m
+  [4;36;1mDressing Load (0.1ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 8) [0m
+  [4;35;1mEntree Load (0.3ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 12) [0m
+  [4;36;1mSide Load (0.3ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 12) [0m
+  [4;35;1mDressing Load (0.3ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 12) [0m
+Completed in 36ms (View: 29, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-04 21:29:56) [GET]
+  [4;36;1mMeal Load (0.8ms)[0m   [0;1mSELECT * FROM "meals" WHERE ("meals"."published" = 't') LIMIT 3[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mEntree Load (0.2ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 7) [0m
+  [4;36;1mSide Load (0.4ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 7) [0m
+  [4;35;1mDressing Load (0.1ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 7) [0m
+  [4;36;1mEntree Load (0.1ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 8) [0m
+  [4;35;1mSide Load (0.1ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 8) [0m
+  [4;36;1mDressing Load (0.1ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 8) [0m
+  [4;35;1mEntree Load (0.3ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 12) [0m
+  [4;36;1mSide Load (0.3ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 12) [0m
+  [4;35;1mDressing Load (0.3ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 12) [0m
+Completed in 37ms (View: 30, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing MealsController#index (for 127.0.0.1 at 2010-10-04 21:30:19) [GET]
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from <class:User> at /Users/kevin/Sites/inapicklecateringllc/app/models/user.rb:4)
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mMeal Load (0.8ms)[0m   [0mSELECT * FROM "meals" [0m
+Rendering template within layouts/application
+Rendering meals/index
+Completed in 61ms (View: 44, DB: 2) | 200 OK [http://localhost/meals]
+
+
+Processing MealsController#edit (for 127.0.0.1 at 2010-10-04 21:30:23) [GET]
+  Parameters: {"id"=>"7"}
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from <class:User> at /Users/kevin/Sites/inapicklecateringllc/app/models/user.rb:4)
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mMeal Load (0.3ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."id" = 7) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "meals" WHERE ("meals"."id" = 7) [0m
+  [4;35;1mSide Load (1.9ms)[0m   [0mSELECT * FROM "sides" [0m
+  [4;36;1mEntree Load (1.2ms)[0m   [0;1mSELECT * FROM "entrees" [0m
+Rendering template within layouts/application
+Rendering meals/edit
+  [4;35;1mEntree Load (0.2ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 7) [0m
+Rendered meals/_entree (1.7ms)
+  [4;36;1mSide Load (0.3ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 7) [0m
+Rendered meals/_side (2.5ms)
+Rendered meals/_side (0.3ms)
+Rendered meals/_side (0.3ms)
+Rendered meals/_side (0.3ms)
+  [4;35;1mDressing Load (0.2ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 7) [0m
+Rendered meals/_other (1.5ms)
+Rendered meals/_form (18.7ms)
+Completed in 48ms (View: 21, DB: 5) | 200 OK [http://localhost/meals/7/edit]
+
+
+Processing MealsController#update (for 127.0.0.1 at 2010-10-04 21:30:32) [PUT]
+  Parameters: {"authenticity_token"=>"v5S56Ti6LmMshX6GMM5rC7/Xfn09zhcis3zNLHFcnss=", "meal"=>{"title"=>"Meal 7", "side_title"=>"With Many Sides", "side_attributes"=>{"35"=>{"description"=>"test"}, "36"=>{"description"=>"test"}, "37"=>{"description"=>"test"}}, "other_title"=>"And Salads", "day"=>"Monday", "published"=>"1"}, "commit"=>"Submit", "id"=>"7"}
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from <class:User> at /Users/kevin/Sites/inapicklecateringllc/app/models/user.rb:4)
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mMeal Load (0.3ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."id" = 7) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "meals" WHERE ("meals"."id" = 7) [0m
+
+NoMethodError (undefined method `stringify_keys!' for "35":String):
+  app/models/meal.rb:13:in `block in side_attributes='
+  app/models/meal.rb:12:in `each'
+  app/models/meal.rb:12:in `side_attributes='
+  app/controllers/meals_controller.rb:70:in `block in update'
+  app/controllers/meals_controller.rb:69:in `update'
+  warden (0.10.7) lib/warden/manager.rb:35:in `block in call'
+  warden (0.10.7) lib/warden/manager.rb:34:in `catch'
+  warden (0.10.7) lib/warden/manager.rb:34:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /Users/kevin/.rvm/rubies/ruby-1.9.1-p378/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/kevin/.rvm/rubies/ruby-1.9.1-p378/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/kevin/.rvm/rubies/ruby-1.9.1-p378/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from <class:User> at /Users/kevin/Sites/inapicklecateringllc/app/models/user.rb:4)
+
+
+Processing MealsController#show (for 127.0.0.1 at 2010-10-04 21:31:05) [GET]
+  Parameters: {"id"=>"7"}
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mMeal Load (0.3ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."id" = 7) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "meals" WHERE ("meals"."id" = 7) [0m
+Rendering template within layouts/application
+Rendering meals/show
+  [4;35;1mEntree Load (0.2ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 7) [0m
+  [4;36;1mSide Load (0.3ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 7) [0m
+  [4;35;1mDressing Load (0.2ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 7) [0m
+Completed in 108ms (View: 42, DB: 2) | 200 OK [http://localhost/meals/7]
+
+
+Processing MealsController#edit (for 127.0.0.1 at 2010-10-04 21:31:09) [GET]
+  Parameters: {"id"=>"7"}
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from <class:User> at /Users/kevin/Sites/inapicklecateringllc/app/models/user.rb:4)
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mMeal Load (0.3ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."id" = 7) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "meals" WHERE ("meals"."id" = 7) [0m
+  [4;35;1mSide Load (1.9ms)[0m   [0mSELECT * FROM "sides" [0m
+  [4;36;1mEntree Load (1.2ms)[0m   [0;1mSELECT * FROM "entrees" [0m
+Rendering template within layouts/application
+Rendering meals/edit
+  [4;35;1mEntree Load (0.2ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 7) [0m
+Rendered meals/_entree (2.5ms)
+  [4;36;1mSide Load (0.4ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 7) [0m
+Rendered meals/_side (3.0ms)
+Rendered meals/_side (0.3ms)
+Rendered meals/_side (0.3ms)
+Rendered meals/_side (0.8ms)
+  [4;35;1mDressing Load (0.2ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 7) [0m
+Rendered meals/_other (2.2ms)
+Rendered meals/_form (78.7ms)
+Completed in 124ms (View: 97, DB: 5) | 200 OK [http://localhost/meals/7/edit]
+
+
+Processing MealsController#update (for 127.0.0.1 at 2010-10-04 21:31:16) [PUT]
+  Parameters: {"authenticity_token"=>"v5S56Ti6LmMshX6GMM5rC7/Xfn09zhcis3zNLHFcnss=", "meal"=>{"title"=>"Meal 7", "side_title"=>"With Many Sides", "side_attributes"=>{"35"=>{"description"=>"test"}, "36"=>{"description"=>"test"}, "37"=>{"description"=>"test"}}, "other_title"=>"And Salads", "day"=>"Monday", "published"=>"1"}, "commit"=>"Submit", "id"=>"7"}
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from <class:User> at /Users/kevin/Sites/inapicklecateringllc/app/models/user.rb:4)
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mMeal Load (0.3ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."id" = 7) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "meals" WHERE ("meals"."id" = 7) [0m
+
+NoMethodError (undefined method `stringify_keys!' for "35":String):
+  app/models/meal.rb:13:in `block in side_attributes='
+  app/models/meal.rb:12:in `each'
+  app/models/meal.rb:12:in `side_attributes='
+  app/controllers/meals_controller.rb:70:in `block in update'
+  app/controllers/meals_controller.rb:69:in `update'
+  warden (0.10.7) lib/warden/manager.rb:35:in `block in call'
+  warden (0.10.7) lib/warden/manager.rb:34:in `catch'
+  warden (0.10.7) lib/warden/manager.rb:34:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /Users/kevin/.rvm/rubies/ruby-1.9.1-p378/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/kevin/.rvm/rubies/ruby-1.9.1-p378/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/kevin/.rvm/rubies/ruby-1.9.1-p378/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (86.4ms)
+Rendered rescues/_request_and_response (1.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MealsController#index (for 127.0.0.1 at 2010-10-04 21:31:42) [GET]
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from <class:User> at /Users/kevin/Sites/inapicklecateringllc/app/models/user.rb:4)
+  [4;35;1mUser Load (0.7ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from <class:User> at /Users/kevin/Sites/inapicklecateringllc/app/models/user.rb:4)
+
+
+Processing MealsController#index (for 127.0.0.1 at 2010-10-04 21:31:56) [GET]
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mMeal Load (0.8ms)[0m   [0mSELECT * FROM "meals" [0m
+Rendering template within layouts/application
+Rendering meals/index
+Completed in 97ms (View: 33, DB: 2) | 200 OK [http://localhost/meals]
+
+
+Processing MealsController#destroy (for 127.0.0.1 at 2010-10-04 21:32:00) [DELETE]
+  Parameters: {"authenticity_token"=>"v5S56Ti6LmMshX6GMM5rC7/Xfn09zhcis3zNLHFcnss=", "id"=>"7"}
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from <class:User> at /Users/kevin/Sites/inapicklecateringllc/app/models/user.rb:4)
+  [4;36;1mUser Load (0.9ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mMeal Load (0.3ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."id" = 7) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "meals" WHERE ("meals"."id" = 7) [0m
+  [4;35;1mMeal Destroy (0.6ms)[0m   [0mDELETE FROM "meals" WHERE "id" = 7[0m
+Redirected to http://localhost:3000/meals
+Completed in 23ms (DB: 2) | 302 Found [http://localhost/meals/7]
+
+
+Processing MealsController#index (for 127.0.0.1 at 2010-10-04 21:32:00) [GET]
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from <class:User> at /Users/kevin/Sites/inapicklecateringllc/app/models/user.rb:4)
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mMeal Load (0.8ms)[0m   [0mSELECT * FROM "meals" [0m
+Rendering template within layouts/application
+Rendering meals/index
+Completed in 30ms (View: 11, DB: 2) | 200 OK [http://localhost/meals]
+
+
+Processing MealsController#destroy (for 127.0.0.1 at 2010-10-04 21:32:03) [DELETE]
+  Parameters: {"authenticity_token"=>"v5S56Ti6LmMshX6GMM5rC7/Xfn09zhcis3zNLHFcnss=", "id"=>"8"}
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from <class:User> at /Users/kevin/Sites/inapicklecateringllc/app/models/user.rb:4)
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mMeal Load (0.3ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."id" = 8) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "meals" WHERE ("meals"."id" = 8) [0m
+  [4;35;1mMeal Destroy (0.3ms)[0m   [0mDELETE FROM "meals" WHERE "id" = 8[0m
+Redirected to http://localhost:3000/meals
+Completed in 22ms (DB: 1) | 302 Found [http://localhost/meals/8]
+
+
+Processing MealsController#index (for 127.0.0.1 at 2010-10-04 21:32:03) [GET]
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from <class:User> at /Users/kevin/Sites/inapicklecateringllc/app/models/user.rb:4)
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mMeal Load (0.8ms)[0m   [0mSELECT * FROM "meals" [0m
+Rendering template within layouts/application
+Rendering meals/index
+Completed in 28ms (View: 9, DB: 2) | 200 OK [http://localhost/meals]
+
+
+Processing MealsController#destroy (for 127.0.0.1 at 2010-10-04 21:32:06) [DELETE]
+  Parameters: {"authenticity_token"=>"v5S56Ti6LmMshX6GMM5rC7/Xfn09zhcis3zNLHFcnss=", "id"=>"9"}
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from <class:User> at /Users/kevin/Sites/inapicklecateringllc/app/models/user.rb:4)
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mMeal Load (0.2ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."id" = 9) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "meals" WHERE ("meals"."id" = 9) [0m
+  [4;35;1mMeal Destroy (0.3ms)[0m   [0mDELETE FROM "meals" WHERE "id" = 9[0m
+Redirected to http://localhost:3000/meals
+Completed in 21ms (DB: 1) | 302 Found [http://localhost/meals/9]
+
+
+Processing MealsController#index (for 127.0.0.1 at 2010-10-04 21:32:06) [GET]
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from <class:User> at /Users/kevin/Sites/inapicklecateringllc/app/models/user.rb:4)
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mMeal Load (0.6ms)[0m   [0mSELECT * FROM "meals" [0m
+Rendering template within layouts/application
+Rendering meals/index
+Completed in 62ms (View: 8, DB: 1) | 200 OK [http://localhost/meals]
+
+
+Processing MealsController#destroy (for 127.0.0.1 at 2010-10-04 21:32:10) [DELETE]
+  Parameters: {"authenticity_token"=>"v5S56Ti6LmMshX6GMM5rC7/Xfn09zhcis3zNLHFcnss=", "id"=>"10"}
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from <class:User> at /Users/kevin/Sites/inapicklecateringllc/app/models/user.rb:4)
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mMeal Load (0.3ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."id" = 10) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "meals" WHERE ("meals"."id" = 10) [0m
+  [4;35;1mMeal Destroy (0.3ms)[0m   [0mDELETE FROM "meals" WHERE "id" = 10[0m
+Redirected to http://localhost:3000/meals
+Completed in 22ms (DB: 1) | 302 Found [http://localhost/meals/10]
+
+
+Processing MealsController#index (for 127.0.0.1 at 2010-10-04 21:32:10) [GET]
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from <class:User> at /Users/kevin/Sites/inapicklecateringllc/app/models/user.rb:4)
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mMeal Load (0.8ms)[0m   [0mSELECT * FROM "meals" [0m
+Rendering template within layouts/application
+Rendering meals/index
+Completed in 28ms (View: 9, DB: 2) | 200 OK [http://localhost/meals]
+
+
+Processing MealsController#destroy (for 127.0.0.1 at 2010-10-04 21:32:12) [DELETE]
+  Parameters: {"authenticity_token"=>"v5S56Ti6LmMshX6GMM5rC7/Xfn09zhcis3zNLHFcnss=", "id"=>"11"}
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from <class:User> at /Users/kevin/Sites/inapicklecateringllc/app/models/user.rb:4)
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mMeal Load (0.3ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."id" = 11) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "meals" WHERE ("meals"."id" = 11) [0m
+  [4;35;1mMeal Destroy (0.3ms)[0m   [0mDELETE FROM "meals" WHERE "id" = 11[0m
+Redirected to http://localhost:3000/meals
+Completed in 22ms (DB: 1) | 302 Found [http://localhost/meals/11]
+
+
+Processing MealsController#index (for 127.0.0.1 at 2010-10-04 21:32:12) [GET]
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from <class:User> at /Users/kevin/Sites/inapicklecateringllc/app/models/user.rb:4)
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mMeal Load (0.6ms)[0m   [0mSELECT * FROM "meals" [0m
+Rendering template within layouts/application
+Rendering meals/index
+Completed in 29ms (View: 9, DB: 1) | 200 OK [http://localhost/meals]
+
+
+Processing MealsController#destroy (for 127.0.0.1 at 2010-10-04 21:32:21) [DELETE]
+  Parameters: {"authenticity_token"=>"v5S56Ti6LmMshX6GMM5rC7/Xfn09zhcis3zNLHFcnss=", "id"=>"12"}
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from <class:User> at /Users/kevin/Sites/inapicklecateringllc/app/models/user.rb:4)
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mMeal Load (0.3ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."id" = 12) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "meals" WHERE ("meals"."id" = 12) [0m
+  [4;35;1mMeal Destroy (0.3ms)[0m   [0mDELETE FROM "meals" WHERE "id" = 12[0m
+Redirected to http://localhost:3000/meals
+Completed in 25ms (DB: 1) | 302 Found [http://localhost/meals/12]
+
+
+Processing MealsController#index (for 127.0.0.1 at 2010-10-04 21:32:21) [GET]
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from <class:User> at /Users/kevin/Sites/inapicklecateringllc/app/models/user.rb:4)
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mMeal Load (0.5ms)[0m   [0mSELECT * FROM "meals" [0m
+Rendering template within layouts/application
+Rendering meals/index
+Completed in 25ms (View: 7, DB: 1) | 200 OK [http://localhost/meals]
+
+
+Processing MealsController#destroy (for 127.0.0.1 at 2010-10-04 21:32:23) [DELETE]
+  Parameters: {"authenticity_token"=>"v5S56Ti6LmMshX6GMM5rC7/Xfn09zhcis3zNLHFcnss=", "id"=>"14"}
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from <class:User> at /Users/kevin/Sites/inapicklecateringllc/app/models/user.rb:4)
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mMeal Load (0.3ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."id" = 14) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "meals" WHERE ("meals"."id" = 14) [0m
+  [4;35;1mMeal Destroy (0.3ms)[0m   [0mDELETE FROM "meals" WHERE "id" = 14[0m
+Redirected to http://localhost:3000/meals
+Completed in 21ms (DB: 1) | 302 Found [http://localhost/meals/14]
+
+
+Processing MealsController#index (for 127.0.0.1 at 2010-10-04 21:32:24) [GET]
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from <class:User> at /Users/kevin/Sites/inapicklecateringllc/app/models/user.rb:4)
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mMeal Load (0.5ms)[0m   [0mSELECT * FROM "meals" [0m
+Rendering template within layouts/application
+Rendering meals/index
+Completed in 24ms (View: 6, DB: 1) | 200 OK [http://localhost/meals]
+
+
+Processing MealsController#destroy (for 127.0.0.1 at 2010-10-04 21:32:26) [DELETE]
+  Parameters: {"authenticity_token"=>"v5S56Ti6LmMshX6GMM5rC7/Xfn09zhcis3zNLHFcnss=", "id"=>"15"}
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from <class:User> at /Users/kevin/Sites/inapicklecateringllc/app/models/user.rb:4)
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mMeal Load (0.2ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."id" = 15) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "meals" WHERE ("meals"."id" = 15) [0m
+  [4;35;1mMeal Destroy (0.3ms)[0m   [0mDELETE FROM "meals" WHERE "id" = 15[0m
+Redirected to http://localhost:3000/meals
+Completed in 23ms (DB: 1) | 302 Found [http://localhost/meals/15]
+
+
+Processing MealsController#index (for 127.0.0.1 at 2010-10-04 21:32:26) [GET]
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from <class:User> at /Users/kevin/Sites/inapicklecateringllc/app/models/user.rb:4)
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mMeal Load (0.2ms)[0m   [0mSELECT * FROM "meals" [0m
+Rendering template within layouts/application
+Rendering meals/index
+Completed in 19ms (View: 3, DB: 1) | 200 OK [http://localhost/meals]
+
+
+Processing MealsController#new (for 127.0.0.1 at 2010-10-04 21:32:31) [GET]
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from <class:User> at /Users/kevin/Sites/inapicklecateringllc/app/models/user.rb:4)
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering meals/new
+Rendered meals/_entree (2.3ms)
+Rendered meals/_entree (0.3ms)
+Rendered meals/_entree (0.8ms)
+Rendered meals/_side (2.3ms)
+Rendered meals/_side (0.3ms)
+Rendered meals/_side (0.3ms)
+Rendered meals/_side (0.8ms)
+Rendered meals/_other (2.2ms)
+Rendered meals/_other (0.3ms)
+Rendered meals/_other (0.2ms)
+Rendered meals/_other (0.8ms)
+Rendered meals/_form (42.9ms)
+Completed in 119ms (View: 86, DB: 1) | 200 OK [http://localhost/meals/new]
+
+
+Processing MealsController#create (for 127.0.0.1 at 2010-10-04 21:34:00) [POST]
+  Parameters: {"authenticity_token"=>"v5S56Ti6LmMshX6GMM5rC7/Xfn09zhcis3zNLHFcnss=", "meal"=>{"title"=>"Meal For One", "entree_attributes"=>[{"name"=>"Stuffed Hallibut"}], "side_title"=>"Your choice of 2 sides", "side_attributes"=>[{"description"=>"Baked Potatoes"}, {"description"=>"Nike running shoes"}], "other_title"=>"Your choice of salad", "other_attributes"=>[{"description"=>"Balsalmic"}, {"description"=>"Ranch"}, {"description"=>"Honey with Barf"}], "day"=>"Monday", "published"=>"1"}, "commit"=>"Submit"}
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from <class:User> at /Users/kevin/Sites/inapicklecateringllc/app/models/user.rb:4)
+  [4;35;1mUser Load (0.7ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mMeal Create (0.4ms)[0m   [0;1mINSERT INTO "meals" ("title", "side_title", "other_title", "day", "published", "created_at", "updated_at") VALUES('Meal For One', 'Your choice of 2 sides', 'Your choice of salad', 'Monday', 't', '2010-10-05 02:34:00', '2010-10-05 02:34:00')[0m
+  [4;35;1mEntree Create (0.2ms)[0m   [0mINSERT INTO "entrees" ("name", "description", "created_at", "updated_at", "meal_id") VALUES('Stuffed Hallibut', NULL, '2010-10-05 02:34:00', '2010-10-05 02:34:00', 16)[0m
+  [4;36;1mSide Create (0.2ms)[0m   [0;1mINSERT INTO "sides" ("description", "created_at", "updated_at", "meal_id") VALUES('Baked Potatoes', '2010-10-05 02:34:00', '2010-10-05 02:34:00', 16)[0m
+  [4;35;1mSide Create (0.1ms)[0m   [0mINSERT INTO "sides" ("description", "created_at", "updated_at", "meal_id") VALUES('Nike running shoes', '2010-10-05 02:34:00', '2010-10-05 02:34:00', 16)[0m
+  [4;36;1mDressing Create (0.1ms)[0m   [0;1mINSERT INTO "dressings" ("description", "created_at", "updated_at", "meal_id") VALUES('Balsalmic', '2010-10-05 02:34:00', '2010-10-05 02:34:00', 16)[0m
+  [4;35;1mDressing Create (0.1ms)[0m   [0mINSERT INTO "dressings" ("description", "created_at", "updated_at", "meal_id") VALUES('Ranch', '2010-10-05 02:34:00', '2010-10-05 02:34:00', 16)[0m
+  [4;36;1mDressing Create (0.1ms)[0m   [0;1mINSERT INTO "dressings" ("description", "created_at", "updated_at", "meal_id") VALUES('Honey with Barf', '2010-10-05 02:34:00', '2010-10-05 02:34:00', 16)[0m
+Redirected to http://localhost:3000/meals/16
+Completed in 69ms (DB: 2) | 302 Found [http://localhost/meals]
+
+
+Processing MealsController#show (for 127.0.0.1 at 2010-10-04 21:34:00) [GET]
+  Parameters: {"id"=>"16"}
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from <class:User> at /Users/kevin/Sites/inapicklecateringllc/app/models/user.rb:4)
+  [4;35;1mUser Load (0.7ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mMeal Load (0.5ms)[0m   [0;1mSELECT * FROM "meals" WHERE ("meals"."id" = 16) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."id" = 16) [0m
+Rendering template within layouts/application
+Rendering meals/show
+  [4;36;1mEntree Load (0.3ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 16) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 16) [0m
+  [4;36;1mDressing Load (0.4ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 16) [0m
+Completed in 48ms (View: 27, DB: 2) | 200 OK [http://localhost/meals/16]
+
+
+Processing MealsController#index (for 127.0.0.1 at 2010-10-04 21:34:10) [GET]
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from <class:User> at /Users/kevin/Sites/inapicklecateringllc/app/models/user.rb:4)
+  [4;35;1mUser Load (0.7ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mMeal Load (0.4ms)[0m   [0;1mSELECT * FROM "meals" [0m
+Rendering template within layouts/application
+Rendering meals/index
+Completed in 23ms (View: 6, DB: 1) | 200 OK [http://localhost/meals]
+
+
+Processing MealsController#new (for 127.0.0.1 at 2010-10-04 21:34:13) [GET]
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from <class:User> at /Users/kevin/Sites/inapicklecateringllc/app/models/user.rb:4)
+  [4;35;1mUser Load (0.8ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering meals/new
+Rendered meals/_entree (1.6ms)
+Rendered meals/_entree (0.2ms)
+Rendered meals/_entree (0.3ms)
+Rendered meals/_side (1.4ms)
+Rendered meals/_side (0.3ms)
+Rendered meals/_side (0.2ms)
+Rendered meals/_side (0.3ms)
+Rendered meals/_other (1.5ms)
+Rendered meals/_other (0.2ms)
+Rendered meals/_other (0.2ms)
+Rendered meals/_other (0.3ms)
+Rendered meals/_form (12.7ms)
+Completed in 41ms (View: 15, DB: 1) | 200 OK [http://localhost/meals/new]
+
+
+Processing MealsController#create (for 127.0.0.1 at 2010-10-04 21:36:56) [POST]
+  Parameters: {"authenticity_token"=>"v5S56Ti6LmMshX6GMM5rC7/Xfn09zhcis3zNLHFcnss=", "meal"=>{"title"=>"Deluxe Meal for 3", "entree_attributes"=>[{"name"=>"This is going the be the best meal you've ever had.  It will come with all sorts of Yummyness, and will make you cry home to your momma."}, {"name"=>"this is the second entree"}], "side_title"=>"We have many delicioses sides for you to choose from.  Please choose the two that you would like.", "side_attributes"=>[{"description"=>"Whan an awesome side with an awesome description."}, {"description"=>"Here's another side for you."}, {"description"=>"Side 3"}, {"description"=>"Side 4"}], "other_title"=>"This is will give you room for your salad stuff.", "other_attributes"=>[{"description"=>"d1"}, {"description"=>"Dressing two with a lemon juice"}, {"description"=>"Dressing 3."}], "day"=>"Tuesday", "published"=>"1"}, "commit"=>"Submit"}
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from <class:User> at /Users/kevin/Sites/inapicklecateringllc/app/models/user.rb:4)
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mMeal Create (0.4ms)[0m   [0mINSERT INTO "meals" ("title", "side_title", "other_title", "day", "published", "created_at", "updated_at") VALUES('Deluxe Meal for 3', 'We have many delicioses sides for you to choose from. Please choose the two that you would like.', 'This is will give you room for your salad stuff.', 'Tuesday', 't', '2010-10-05 02:36:56', '2010-10-05 02:36:56')[0m
+  [4;36;1mEntree Create (0.1ms)[0m   [0;1mINSERT INTO "entrees" ("name", "description", "created_at", "updated_at", "meal_id") VALUES('This is going the be the best meal you''ve ever had. It will come with all sorts of Yummyness, and will make you cry home to your momma.', NULL, '2010-10-05 02:36:56', '2010-10-05 02:36:56', 17)[0m
+  [4;35;1mEntree Create (0.1ms)[0m   [0mINSERT INTO "entrees" ("name", "description", "created_at", "updated_at", "meal_id") VALUES('this is the second entree', NULL, '2010-10-05 02:36:56', '2010-10-05 02:36:56', 17)[0m
+  [4;36;1mSide Create (0.1ms)[0m   [0;1mINSERT INTO "sides" ("description", "created_at", "updated_at", "meal_id") VALUES('Whan an awesome side with an awesome description.', '2010-10-05 02:36:56', '2010-10-05 02:36:56', 17)[0m
+  [4;35;1mSide Create (0.1ms)[0m   [0mINSERT INTO "sides" ("description", "created_at", "updated_at", "meal_id") VALUES('Here''s another side for you.', '2010-10-05 02:36:56', '2010-10-05 02:36:56', 17)[0m
+  [4;36;1mSide Create (0.1ms)[0m   [0;1mINSERT INTO "sides" ("description", "created_at", "updated_at", "meal_id") VALUES('Side 3', '2010-10-05 02:36:56', '2010-10-05 02:36:56', 17)[0m
+  [4;35;1mSide Create (0.1ms)[0m   [0mINSERT INTO "sides" ("description", "created_at", "updated_at", "meal_id") VALUES('Side 4', '2010-10-05 02:36:56', '2010-10-05 02:36:56', 17)[0m
+  [4;36;1mDressing Create (0.2ms)[0m   [0;1mINSERT INTO "dressings" ("description", "created_at", "updated_at", "meal_id") VALUES('d1', '2010-10-05 02:36:56', '2010-10-05 02:36:56', 17)[0m
+  [4;35;1mDressing Create (0.1ms)[0m   [0mINSERT INTO "dressings" ("description", "created_at", "updated_at", "meal_id") VALUES('Dressing two with a lemon juice', '2010-10-05 02:36:56', '2010-10-05 02:36:56', 17)[0m
+  [4;36;1mDressing Create (0.1ms)[0m   [0;1mINSERT INTO "dressings" ("description", "created_at", "updated_at", "meal_id") VALUES('Dressing 3.', '2010-10-05 02:36:56', '2010-10-05 02:36:56', 17)[0m
+Redirected to http://localhost:3000/meals/17
+Completed in 46ms (DB: 2) | 302 Found [http://localhost/meals]
+
+
+Processing MealsController#show (for 127.0.0.1 at 2010-10-04 21:36:56) [GET]
+  Parameters: {"id"=>"17"}
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from <class:User> at /Users/kevin/Sites/inapicklecateringllc/app/models/user.rb:4)
+  [4;35;1mUser Load (0.7ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mMeal Load (0.3ms)[0m   [0;1mSELECT * FROM "meals" WHERE ("meals"."id" = 17) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."id" = 17) [0m
+Rendering template within layouts/application
+Rendering meals/show
+  [4;36;1mEntree Load (0.4ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 17) [0m
+  [4;35;1mSide Load (0.5ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 17) [0m
+  [4;36;1mDressing Load (0.4ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 17) [0m
+Completed in 46ms (View: 25, DB: 2) | 200 OK [http://localhost/meals/17]
+
+
+Processing MealsController#index (for 127.0.0.1 at 2010-10-04 21:37:18) [GET]
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from <class:User> at /Users/kevin/Sites/inapicklecateringllc/app/models/user.rb:4)
+  [4;35;1mUser Load (0.7ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mMeal Load (0.4ms)[0m   [0;1mSELECT * FROM "meals" [0m
+Rendering template within layouts/application
+Rendering meals/index
+Completed in 23ms (View: 6, DB: 1) | 200 OK [http://localhost/meals]
+
+
+Processing MealsController#edit (for 127.0.0.1 at 2010-10-04 21:37:30) [GET]
+  Parameters: {"id"=>"16"}
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from <class:User> at /Users/kevin/Sites/inapicklecateringllc/app/models/user.rb:4)
+  [4;35;1mUser Load (0.7ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mMeal Load (0.3ms)[0m   [0;1mSELECT * FROM "meals" WHERE ("meals"."id" = 16) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."id" = 16) [0m
+  [4;36;1mSide Load (2.2ms)[0m   [0;1mSELECT * FROM "sides" [0m
+  [4;35;1mEntree Load (1.3ms)[0m   [0mSELECT * FROM "entrees" [0m
+Rendering template within layouts/application
+Rendering meals/edit
+  [4;36;1mEntree Load (0.4ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 16) [0m
+Rendered meals/_entree (2.5ms)
+Rendered meals/_entree (0.3ms)
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 16) [0m
+Rendered meals/_side (2.1ms)
+Rendered meals/_side (0.3ms)
+Rendered meals/_side (0.3ms)
+  [4;36;1mDressing Load (0.4ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 16) [0m
+Rendered meals/_other (2.1ms)
+Rendered meals/_other (0.3ms)
+Rendered meals/_other (0.3ms)
+Rendered meals/_other (0.3ms)
+Rendered meals/_form (20.2ms)
+Completed in 58ms (View: 30, DB: 6) | 200 OK [http://localhost/meals/16/edit]
+
+
+Processing MealsController#update (for 127.0.0.1 at 2010-10-04 21:37:39) [PUT]
+  Parameters: {"authenticity_token"=>"v5S56Ti6LmMshX6GMM5rC7/Xfn09zhcis3zNLHFcnss=", "meal"=>{"title"=>"Meal For One", "entree_attributes"=>{"21"=>{"name"=>"Stuffed Hallibut"}}, "side_title"=>"Your choice of 2 sides", "side_attributes"=>{"38"=>{"description"=>"Baked Potatoes"}, "39"=>{"description"=>"Nike running shoes"}}, "other_title"=>"Your choice of salad", "other_attributes"=>{"13"=>{"description"=>"Balsalmic"}, "14"=>{"description"=>"Ranch"}, "15"=>{"description"=>"Honey with Barf"}}, "day"=>"Tuesday", "published"=>"1"}, "commit"=>"Submit", "id"=>"16"}
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from <class:User> at /Users/kevin/Sites/inapicklecateringllc/app/models/user.rb:4)
+  [4;35;1mUser Load (0.7ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mMeal Load (0.2ms)[0m   [0;1mSELECT * FROM "meals" WHERE ("meals"."id" = 16) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."id" = 16) [0m
+
+NoMethodError (undefined method `stringify_keys!' for "21":String):
+  app/models/meal.rb:8:in `block in entree_attributes='
+  app/models/meal.rb:7:in `each'
+  app/models/meal.rb:7:in `entree_attributes='
+  app/controllers/meals_controller.rb:70:in `block in update'
+  app/controllers/meals_controller.rb:69:in `update'
+  warden (0.10.7) lib/warden/manager.rb:35:in `block in call'
+  warden (0.10.7) lib/warden/manager.rb:34:in `catch'
+  warden (0.10.7) lib/warden/manager.rb:34:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /Users/kevin/.rvm/rubies/ruby-1.9.1-p378/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/kevin/.rvm/rubies/ruby-1.9.1-p378/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/kevin/.rvm/rubies/ruby-1.9.1-p378/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from <class:User> at /Users/kevin/Sites/inapicklecateringllc/app/models/user.rb:4)
+
+
+Processing MealsController#index (for 127.0.0.1 at 2010-10-04 21:38:11) [GET]
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mMeal Load (0.4ms)[0m   [0mSELECT * FROM "meals" [0m
+Rendering template within layouts/application
+Rendering meals/index
+Completed in 96ms (View: 30, DB: 1) | 200 OK [http://localhost/meals]
+
+
+Processing MealsController#new (for 127.0.0.1 at 2010-10-04 21:38:14) [GET]
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from <class:User> at /Users/kevin/Sites/inapicklecateringllc/app/models/user.rb:4)
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering meals/new
+Rendered meals/_entree (2.4ms)
+Rendered meals/_entree (0.2ms)
+Rendered meals/_entree (0.7ms)
+Rendered meals/_side (2.3ms)
+Rendered meals/_side (0.3ms)
+Rendered meals/_side (0.2ms)
+Rendered meals/_side (0.8ms)
+Rendered meals/_other (2.2ms)
+Rendered meals/_other (0.3ms)
+Rendered meals/_other (0.2ms)
+Rendered meals/_other (0.8ms)
+Rendered meals/_form (42.7ms)
+Completed in 122ms (View: 60, DB: 1) | 200 OK [http://localhost/meals/new]
+
+
+Processing MealsController#create (for 127.0.0.1 at 2010-10-04 21:39:55) [POST]
+  Parameters: {"authenticity_token"=>"v5S56Ti6LmMshX6GMM5rC7/Xfn09zhcis3zNLHFcnss=", "meal"=>{"title"=>"Meal Three Is Aweseom", "entree_attributes"=>[{"name"=>"You could write a long paragraph about this meal here an dnot use another entree."}], "side_title"=>"Your choice of sides (2):", "side_attributes"=>[{"description"=>"Awesome side 1."}, {"description"=>"Your only going to find this side here."}, {"description"=>"I found this on the side of the road"}], "other_title"=>"Salad option.", "other_attributes"=>[{"description"=>"You get your choice of Balsalmic, Ranch, or Blue Cheese"}], "day"=>"Friday", "published"=>"1"}, "commit"=>"Submit"}
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from <class:User> at /Users/kevin/Sites/inapicklecateringllc/app/models/user.rb:4)
+  [4;35;1mUser Load (0.7ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mMeal Create (0.5ms)[0m   [0;1mINSERT INTO "meals" ("title", "side_title", "other_title", "day", "published", "created_at", "updated_at") VALUES('Meal Three Is Aweseom', 'Your choice of sides (2):', 'Salad option.', 'Friday', 't', '2010-10-05 02:39:55', '2010-10-05 02:39:55')[0m
+  [4;35;1mEntree Create (0.1ms)[0m   [0mINSERT INTO "entrees" ("name", "description", "created_at", "updated_at", "meal_id") VALUES('You could write a long paragraph about this meal here an dnot use another entree.', NULL, '2010-10-05 02:39:55', '2010-10-05 02:39:55', 18)[0m
+  [4;36;1mSide Create (0.1ms)[0m   [0;1mINSERT INTO "sides" ("description", "created_at", "updated_at", "meal_id") VALUES('Awesome side 1.', '2010-10-05 02:39:55', '2010-10-05 02:39:55', 18)[0m
+  [4;35;1mSide Create (0.1ms)[0m   [0mINSERT INTO "sides" ("description", "created_at", "updated_at", "meal_id") VALUES('Your only going to find this side here.', '2010-10-05 02:39:55', '2010-10-05 02:39:55', 18)[0m
+  [4;36;1mSide Create (0.1ms)[0m   [0;1mINSERT INTO "sides" ("description", "created_at", "updated_at", "meal_id") VALUES('I found this on the side of the road', '2010-10-05 02:39:55', '2010-10-05 02:39:55', 18)[0m
+  [4;35;1mDressing Create (0.2ms)[0m   [0mINSERT INTO "dressings" ("description", "created_at", "updated_at", "meal_id") VALUES('You get your choice of Balsalmic, Ranch, or Blue Cheese', '2010-10-05 02:39:55', '2010-10-05 02:39:55', 18)[0m
+Redirected to http://localhost:3000/meals/18
+Completed in 47ms (DB: 2) | 302 Found [http://localhost/meals]
+
+
+Processing MealsController#show (for 127.0.0.1 at 2010-10-04 21:39:55) [GET]
+  Parameters: {"id"=>"18"}
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from <class:User> at /Users/kevin/Sites/inapicklecateringllc/app/models/user.rb:4)
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mMeal Load (0.3ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."id" = 18) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "meals" WHERE ("meals"."id" = 18) [0m
+Rendering template within layouts/application
+Rendering meals/show
+  [4;35;1mEntree Load (0.3ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 18) [0m
+  [4;36;1mSide Load (0.4ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 18) [0m
+  [4;35;1mDressing Load (0.3ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 18) [0m
+Completed in 49ms (View: 28, DB: 2) | 200 OK [http://localhost/meals/18]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-04 21:39:57) [GET]
+  [4;36;1mMeal Load (0.8ms)[0m   [0;1mSELECT * FROM "meals" WHERE ("meals"."published" = 't') LIMIT 3[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mEntree Load (0.3ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 16) [0m
+  [4;36;1mSide Load (0.3ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 16) [0m
+  [4;35;1mDressing Load (0.4ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 16) [0m
+  [4;36;1mEntree Load (0.3ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 17) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 17) [0m
+  [4;36;1mDressing Load (0.3ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 17) [0m
+  [4;35;1mEntree Load (0.2ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 18) [0m
+  [4;36;1mSide Load (0.3ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 18) [0m
+  [4;35;1mDressing Load (0.2ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 18) [0m
+Completed in 42ms (View: 33, DB: 3) | 200 OK [http://localhost/]

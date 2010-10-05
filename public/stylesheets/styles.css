@@ -15,7 +15,7 @@ ul{
 #logo{
 	font-family: 'Tangerine',"fertigo-script-1","fertigo-script-2", arial, serif;
 	font-size: 50px;
-	padding-top:10px;
+	padding-top:8px;
 	color:#000;
 	display:block;
 	height:50px;
@@ -24,7 +24,6 @@ ul{
 
 /*Navigation Menu*/
 #menu{
-	/*font-family: 'Lobster', arial, serif;*/
 	color:#fff;
 	font-size: 1.5em;
 	height:1.5em;
@@ -34,7 +33,7 @@ ul{
 ul#menu{
 	margin:0;
 	list-style: none;
-	padding:10px 0 0 0;
+	padding:15px 0 0 0;
 }
 #menu li{
 	display: inline;
@@ -46,10 +45,10 @@ ul#menu{
 #menu a{
 	color:#FFF;
 	display: inline-block;
-	padding: 0px 20px;
+	padding: 0px 30px;
 	text-decoration: none;
 	text-transform: capitalize;
-	font-size: 1.4em;
+	font-size: 1.5em;
 	font-weight: bold;
 }
 #menu a:hover{
@@ -72,8 +71,8 @@ ul#menu{
 #footer-inner{
 	height:25px; 
 	padding-top:10px; 
-	background-color:#111; 
-	color:#999;
+	background-color:#84DC24; 
+	color:#fff;
 }
 
 /*General Styles*/
@@ -83,7 +82,24 @@ ul#menu{
 	margin-right:70px;
 	float:right;
 }
-
+.welcome{
+}
+.welcome h1{
+	/*	typekit font */
+	font-family: "lemonde-sans-1","lemonde-sans-2",sans-serif;	
+	
+	margin-bottom:0px;
+	font-size:3.2em;
+	font-weight: bold;
+}
+.welcome h2{
+	/*	typekit font */
+	font-family: "lemonde-sans-1","lemonde-sans-2",sans-serif;	
+	
+	margin-top:0px;
+	font-size:1.8em;
+	font-weight: bold;
+}
 .welcome p{
 	font-size:1.5em;
 	line-height:1.8em;

@@ -11,10 +11,16 @@ body {
   font-size: 90%;
   color: #222; 
   background: #fff;
-/*  font-family: 'Josefin Sans Std Light', arial, serif;
-  font-family: 'Reenie Beanie', arial, serif; 
-  font-family: "fertigo-script-1","fertigo-script-2", arial, serif;*/
-	font-family:"bistro-script-web-1","bistro-script-web-2, arial, serif";
+/*  font-family: 'Josefin Sans Std Light', arial, serif;*/
+/*  font-family: 'Reenie Beanie', arial, serif; */
+/*  font-family: "fertigo-script-1","fertigo-script-2", arial, serif;*/
+
+/*	typekit font */
+/*	font-family:"bistro-script-web-1","bistro-script-web-2, arial, serif";*/
+/*	font-family: "lemonde-sans-1","lemonde-sans-2",sans-serif;*/	
+
+/*	Google Font*/
+	font-family: 'Josefin Sans Std Light', arial, serif;
 }
 
 
