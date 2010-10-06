@@ -13,8 +13,9 @@ ul{
 	height:60px;
 }
 #logo{
-	font-family: 'Tangerine',"fertigo-script-1","fertigo-script-2", arial, serif;
-	font-size: 50px;
+	/*font-family: 'Tangerine',"fertigo-script-1","fertigo-script-2", arial, serif;*/
+	font-family:"delve-hand-1","delve-hand-2", arial, serif;
+	font-size: 3em;
 	padding-top:8px;
 	color:#000;
 	display:block;
