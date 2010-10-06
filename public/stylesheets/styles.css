@@ -111,14 +111,15 @@ span.black{
 .welcome h1{
 	/*	typekit font */
 	font-family: "lemonde-sans-1","lemonde-sans-2",sans-serif;	
-	
+		font-family: "angie-sans-1","angie-sans-2",sans-serif;
 	margin-bottom:0px;
 	font-size:3.2em;
 	font-weight: bold;
 }
 .welcome h2{
 	/*	typekit font */
-	font-family: "lemonde-sans-1","lemonde-sans-2",sans-serif;	
+	/*font-family: "lemonde-sans-1","lemonde-sans-2",sans-serif;	*/
+		font-family: "angie-sans-1","angie-sans-2",sans-serif;
 	
 	margin-top:0px;
 	font-size:1.8em;
