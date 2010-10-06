@@ -7434,3 +7434,709 @@ Rendering home/index
   [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 18) [0m
   [4;36;1mDressing Load (0.2ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 18) [0m
 Completed in 38ms (View: 29, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-05 20:48:25) [GET]
+  [4;35;1mMeal Load (24.9ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."published" = 't') LIMIT 3[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mEntree Load (0.9ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 16) [0m
+  [4;35;1mSide Load (18.2ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 16) [0m
+  [4;36;1mDressing Load (0.6ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 16) [0m
+  [4;35;1mEntree Load (0.4ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 17) [0m
+  [4;36;1mSide Load (0.4ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 17) [0m
+  [4;35;1mDressing Load (0.4ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 17) [0m
+  [4;36;1mEntree Load (0.3ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 18) [0m
+  [4;35;1mSide Load (0.4ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 18) [0m
+  [4;36;1mDressing Load (0.2ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 18) [0m
+Completed in 213ms (View: 95, DB: 47) | 200 OK [http://localhost/]
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-10-05 20:49:17) [GET]
+Rendering template within layouts/application
+Rendering home/about
+Completed in 13ms (View: 12, DB: 0) | 200 OK [http://localhost/home/about]
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-10-05 20:49:38) [GET]
+Rendering template within layouts/application
+Rendering home/about
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/home/about]
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-10-05 20:51:01) [GET]
+Rendering template within layouts/application
+Rendering home/about
+Completed in 17ms (View: 15, DB: 0) | 200 OK [http://localhost/home/about]
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-10-05 20:51:17) [GET]
+Rendering template within layouts/application
+Rendering home/about
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/home/about]
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-10-05 20:51:31) [GET]
+Rendering template within layouts/application
+Rendering home/about
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/home/about]
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-10-05 20:51:44) [GET]
+Rendering template within layouts/application
+Rendering home/about
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/home/about]
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-10-05 20:51:55) [GET]
+Rendering template within layouts/application
+Rendering home/about
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/home/about]
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-10-05 20:52:08) [GET]
+Rendering template within layouts/application
+Rendering home/about
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/home/about]
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-10-05 20:52:18) [GET]
+Rendering template within layouts/application
+Rendering home/about
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/home/about]
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-10-05 20:52:54) [GET]
+Rendering template within layouts/application
+Rendering home/about
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/home/about]
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-10-05 20:53:03) [GET]
+Rendering template within layouts/application
+Rendering home/about
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/home/about]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-05 20:53:06) [GET]
+  [4;35;1mMeal Load (0.8ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."published" = 't') LIMIT 3[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mEntree Load (0.4ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 16) [0m
+  [4;35;1mSide Load (0.4ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 16) [0m
+  [4;36;1mDressing Load (0.4ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 16) [0m
+  [4;35;1mEntree Load (0.3ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 17) [0m
+  [4;36;1mSide Load (0.3ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 17) [0m
+  [4;35;1mDressing Load (0.3ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 17) [0m
+  [4;36;1mEntree Load (0.2ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 18) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 18) [0m
+  [4;36;1mDressing Load (0.2ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 18) [0m
+Completed in 30ms (View: 21, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-05 20:55:18) [GET]
+  [4;35;1mMeal Load (0.8ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."published" = 't') LIMIT 3[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mEntree Load (0.3ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 16) [0m
+  [4;35;1mSide Load (0.4ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 16) [0m
+  [4;36;1mDressing Load (0.5ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 16) [0m
+  [4;35;1mEntree Load (0.4ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 17) [0m
+  [4;36;1mSide Load (0.3ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 17) [0m
+  [4;35;1mDressing Load (0.3ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 17) [0m
+  [4;36;1mEntree Load (0.2ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 18) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 18) [0m
+  [4;36;1mDressing Load (0.2ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 18) [0m
+Completed in 43ms (View: 32, DB: 4) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-05 20:55:34) [GET]
+  [4;35;1mMeal Load (0.8ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."published" = 't') LIMIT 3[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mEntree Load (0.3ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 16) [0m
+  [4;35;1mSide Load (0.4ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 16) [0m
+  [4;36;1mDressing Load (0.4ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 16) [0m
+  [4;35;1mEntree Load (0.3ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 17) [0m
+  [4;36;1mSide Load (0.3ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 17) [0m
+  [4;35;1mDressing Load (0.3ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 17) [0m
+  [4;36;1mEntree Load (0.2ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 18) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 18) [0m
+  [4;36;1mDressing Load (0.2ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 18) [0m
+Completed in 46ms (View: 35, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-05 20:55:54) [GET]
+  [4;35;1mMeal Load (0.8ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."published" = 't') LIMIT 3[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mEntree Load (0.3ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 16) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 16) [0m
+  [4;36;1mDressing Load (0.4ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 16) [0m
+  [4;35;1mEntree Load (0.3ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 17) [0m
+  [4;36;1mSide Load (0.3ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 17) [0m
+  [4;35;1mDressing Load (0.3ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 17) [0m
+  [4;36;1mEntree Load (0.2ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 18) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 18) [0m
+  [4;36;1mDressing Load (0.2ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 18) [0m
+Completed in 38ms (View: 29, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-05 20:56:02) [GET]
+  [4;35;1mMeal Load (0.8ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."published" = 't') LIMIT 3[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mEntree Load (0.3ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 16) [0m
+  [4;35;1mSide Load (0.4ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 16) [0m
+  [4;36;1mDressing Load (0.4ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 16) [0m
+  [4;35;1mEntree Load (0.3ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 17) [0m
+  [4;36;1mSide Load (0.3ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 17) [0m
+  [4;35;1mDressing Load (0.3ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 17) [0m
+  [4;36;1mEntree Load (0.2ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 18) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 18) [0m
+  [4;36;1mDressing Load (0.2ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 18) [0m
+Completed in 39ms (View: 31, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-05 20:56:28) [GET]
+  [4;35;1mMeal Load (0.8ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."published" = 't') LIMIT 3[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mEntree Load (0.4ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 16) [0m
+  [4;35;1mSide Load (0.4ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 16) [0m
+  [4;36;1mDressing Load (0.5ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 16) [0m
+  [4;35;1mEntree Load (0.4ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 17) [0m
+  [4;36;1mSide Load (0.3ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 17) [0m
+  [4;35;1mDressing Load (0.3ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 17) [0m
+  [4;36;1mEntree Load (0.2ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 18) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 18) [0m
+  [4;36;1mDressing Load (0.2ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 18) [0m
+Completed in 42ms (View: 32, DB: 4) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-05 20:57:54) [GET]
+  [4;35;1mMeal Load (0.8ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."published" = 't') LIMIT 3[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mEntree Load (0.3ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 16) [0m
+  [4;35;1mSide Load (0.4ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 16) [0m
+  [4;36;1mDressing Load (0.3ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 16) [0m
+  [4;35;1mEntree Load (0.3ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 17) [0m
+  [4;36;1mSide Load (0.3ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 17) [0m
+  [4;35;1mDressing Load (0.3ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 17) [0m
+  [4;36;1mEntree Load (0.2ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 18) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 18) [0m
+  [4;36;1mDressing Load (0.2ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 18) [0m
+Completed in 39ms (View: 30, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-05 20:58:03) [GET]
+  [4;35;1mMeal Load (0.8ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."published" = 't') LIMIT 3[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mEntree Load (0.3ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 16) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 16) [0m
+  [4;36;1mDressing Load (0.3ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 16) [0m
+  [4;35;1mEntree Load (0.3ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 17) [0m
+  [4;36;1mSide Load (0.3ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 17) [0m
+  [4;35;1mDressing Load (0.3ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 17) [0m
+  [4;36;1mEntree Load (0.2ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 18) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 18) [0m
+  [4;36;1mDressing Load (0.2ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 18) [0m
+Completed in 38ms (View: 29, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-05 20:58:30) [GET]
+  [4;35;1mMeal Load (0.8ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."published" = 't') LIMIT 3[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mEntree Load (0.3ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 16) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 16) [0m
+  [4;36;1mDressing Load (0.3ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 16) [0m
+  [4;35;1mEntree Load (0.3ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 17) [0m
+  [4;36;1mSide Load (0.3ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 17) [0m
+  [4;35;1mDressing Load (0.3ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 17) [0m
+  [4;36;1mEntree Load (0.2ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 18) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 18) [0m
+  [4;36;1mDressing Load (0.2ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 18) [0m
+Completed in 38ms (View: 29, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-05 20:58:46) [GET]
+  [4;35;1mMeal Load (0.8ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."published" = 't') LIMIT 3[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mEntree Load (0.3ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 16) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 16) [0m
+  [4;36;1mDressing Load (0.3ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 16) [0m
+  [4;35;1mEntree Load (0.3ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 17) [0m
+  [4;36;1mSide Load (0.3ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 17) [0m
+  [4;35;1mDressing Load (0.3ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 17) [0m
+  [4;36;1mEntree Load (0.2ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 18) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 18) [0m
+  [4;36;1mDressing Load (0.2ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 18) [0m
+Completed in 38ms (View: 29, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-05 20:58:59) [GET]
+  [4;35;1mMeal Load (0.8ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."published" = 't') LIMIT 3[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mEntree Load (0.3ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 16) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 16) [0m
+  [4;36;1mDressing Load (0.3ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 16) [0m
+  [4;35;1mEntree Load (0.4ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 17) [0m
+  [4;36;1mSide Load (0.4ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 17) [0m
+  [4;35;1mDressing Load (0.3ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 17) [0m
+  [4;36;1mEntree Load (0.2ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 18) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 18) [0m
+  [4;36;1mDressing Load (0.2ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 18) [0m
+Completed in 73ms (View: 64, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-05 20:59:05) [GET]
+  [4;35;1mMeal Load (0.8ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."published" = 't') LIMIT 3[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mEntree Load (0.3ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 16) [0m
+  [4;35;1mSide Load (0.5ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 16) [0m
+  [4;36;1mDressing Load (0.4ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 16) [0m
+  [4;35;1mEntree Load (0.3ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 17) [0m
+  [4;36;1mSide Load (0.3ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 17) [0m
+  [4;35;1mDressing Load (0.3ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 17) [0m
+  [4;36;1mEntree Load (0.2ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 18) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 18) [0m
+  [4;36;1mDressing Load (0.2ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 18) [0m
+Completed in 38ms (View: 30, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-05 20:59:14) [GET]
+  [4;35;1mMeal Load (0.8ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."published" = 't') LIMIT 3[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mEntree Load (0.3ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 16) [0m
+  [4;35;1mSide Load (0.4ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 16) [0m
+  [4;36;1mDressing Load (0.4ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 16) [0m
+  [4;35;1mEntree Load (0.3ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 17) [0m
+  [4;36;1mSide Load (0.4ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 17) [0m
+  [4;35;1mDressing Load (0.3ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 17) [0m
+  [4;36;1mEntree Load (0.2ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 18) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 18) [0m
+  [4;36;1mDressing Load (0.2ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 18) [0m
+Completed in 75ms (View: 66, DB: 4) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-05 20:59:20) [GET]
+  [4;35;1mMeal Load (0.8ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."published" = 't') LIMIT 3[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mEntree Load (0.3ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 16) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 16) [0m
+  [4;36;1mDressing Load (0.3ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 16) [0m
+  [4;35;1mEntree Load (0.3ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 17) [0m
+  [4;36;1mSide Load (0.3ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 17) [0m
+  [4;35;1mDressing Load (0.3ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 17) [0m
+  [4;36;1mEntree Load (0.2ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 18) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 18) [0m
+  [4;36;1mDressing Load (0.2ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 18) [0m
+Completed in 37ms (View: 29, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-05 20:59:28) [GET]
+  [4;35;1mMeal Load (0.8ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."published" = 't') LIMIT 3[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mEntree Load (0.3ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 16) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 16) [0m
+  [4;36;1mDressing Load (0.4ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 16) [0m
+  [4;35;1mEntree Load (0.3ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 17) [0m
+  [4;36;1mSide Load (0.3ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 17) [0m
+  [4;35;1mDressing Load (0.3ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 17) [0m
+  [4;36;1mEntree Load (0.2ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 18) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 18) [0m
+  [4;36;1mDressing Load (0.2ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 18) [0m
+Completed in 77ms (View: 68, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-05 20:59:37) [GET]
+  [4;35;1mMeal Load (0.8ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."published" = 't') LIMIT 3[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mEntree Load (0.3ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 16) [0m
+  [4;35;1mSide Load (0.4ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 16) [0m
+  [4;36;1mDressing Load (0.4ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 16) [0m
+  [4;35;1mEntree Load (0.3ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 17) [0m
+  [4;36;1mSide Load (0.3ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 17) [0m
+  [4;35;1mDressing Load (0.3ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 17) [0m
+  [4;36;1mEntree Load (0.2ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 18) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 18) [0m
+  [4;36;1mDressing Load (0.2ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 18) [0m
+Completed in 38ms (View: 30, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-05 20:59:43) [GET]
+  [4;35;1mMeal Load (0.8ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."published" = 't') LIMIT 3[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mEntree Load (0.3ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 16) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 16) [0m
+  [4;36;1mDressing Load (0.4ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 16) [0m
+  [4;35;1mEntree Load (0.4ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 17) [0m
+  [4;36;1mSide Load (0.3ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 17) [0m
+  [4;35;1mDressing Load (0.3ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 17) [0m
+  [4;36;1mEntree Load (0.2ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 18) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 18) [0m
+  [4;36;1mDressing Load (0.2ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 18) [0m
+Completed in 74ms (View: 65, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-05 21:00:13) [GET]
+  [4;35;1mMeal Load (0.8ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."published" = 't') LIMIT 3[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mEntree Load (0.3ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 16) [0m
+  [4;35;1mSide Load (0.4ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 16) [0m
+  [4;36;1mDressing Load (0.3ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 16) [0m
+  [4;35;1mEntree Load (0.3ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 17) [0m
+  [4;36;1mSide Load (0.3ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 17) [0m
+  [4;35;1mDressing Load (0.3ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 17) [0m
+  [4;36;1mEntree Load (0.2ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 18) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 18) [0m
+  [4;36;1mDressing Load (0.2ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 18) [0m
+Completed in 39ms (View: 30, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-05 21:00:35) [GET]
+  [4;35;1mMeal Load (0.8ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."published" = 't') LIMIT 3[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mEntree Load (0.3ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 16) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 16) [0m
+  [4;36;1mDressing Load (0.4ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 16) [0m
+  [4;35;1mEntree Load (0.3ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 17) [0m
+  [4;36;1mSide Load (0.3ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 17) [0m
+  [4;35;1mDressing Load (0.3ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 17) [0m
+  [4;36;1mEntree Load (0.2ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 18) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 18) [0m
+  [4;36;1mDressing Load (0.2ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 18) [0m
+Completed in 38ms (View: 29, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-05 21:00:50) [GET]
+  [4;35;1mMeal Load (0.8ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."published" = 't') LIMIT 3[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mEntree Load (0.3ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 16) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 16) [0m
+  [4;36;1mDressing Load (0.3ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 16) [0m
+  [4;35;1mEntree Load (0.3ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 17) [0m
+  [4;36;1mSide Load (0.3ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 17) [0m
+  [4;35;1mDressing Load (0.3ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 17) [0m
+  [4;36;1mEntree Load (0.2ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 18) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 18) [0m
+  [4;36;1mDressing Load (0.2ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 18) [0m
+Completed in 38ms (View: 29, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-05 21:02:00) [GET]
+  [4;35;1mMeal Load (0.8ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."published" = 't') LIMIT 3[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mEntree Load (0.3ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 16) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 16) [0m
+  [4;36;1mDressing Load (0.4ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 16) [0m
+  [4;35;1mEntree Load (0.3ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 17) [0m
+  [4;36;1mSide Load (0.3ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 17) [0m
+  [4;35;1mDressing Load (0.3ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 17) [0m
+  [4;36;1mEntree Load (0.2ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 18) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 18) [0m
+  [4;36;1mDressing Load (0.2ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 18) [0m
+Completed in 38ms (View: 29, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-05 21:02:36) [GET]
+  [4;35;1mMeal Load (0.8ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."published" = 't') LIMIT 3[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mEntree Load (0.3ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 16) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 16) [0m
+  [4;36;1mDressing Load (0.4ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 16) [0m
+  [4;35;1mEntree Load (0.4ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 17) [0m
+  [4;36;1mSide Load (0.4ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 17) [0m
+  [4;35;1mDressing Load (0.3ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 17) [0m
+  [4;36;1mEntree Load (0.2ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 18) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 18) [0m
+  [4;36;1mDressing Load (0.2ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 18) [0m
+Completed in 39ms (View: 30, DB: 4) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-05 21:02:45) [GET]
+  [4;35;1mMeal Load (0.8ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."published" = 't') LIMIT 3[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mEntree Load (0.3ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 16) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 16) [0m
+  [4;36;1mDressing Load (0.4ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 16) [0m
+  [4;35;1mEntree Load (0.3ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 17) [0m
+  [4;36;1mSide Load (0.3ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 17) [0m
+  [4;35;1mDressing Load (0.3ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 17) [0m
+  [4;36;1mEntree Load (0.2ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 18) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 18) [0m
+  [4;36;1mDressing Load (0.2ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 18) [0m
+Completed in 38ms (View: 29, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-05 21:03:34) [GET]
+  [4;35;1mMeal Load (0.8ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."published" = 't') LIMIT 3[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mEntree Load (0.3ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 16) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 16) [0m
+  [4;36;1mDressing Load (0.4ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 16) [0m
+  [4;35;1mEntree Load (0.3ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 17) [0m
+  [4;36;1mSide Load (0.3ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 17) [0m
+  [4;35;1mDressing Load (0.3ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 17) [0m
+  [4;36;1mEntree Load (0.2ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 18) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 18) [0m
+  [4;36;1mDressing Load (0.2ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 18) [0m
+Completed in 30ms (View: 21, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-05 21:04:19) [GET]
+  [4;35;1mMeal Load (0.9ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."published" = 't') LIMIT 3[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mEntree Load (0.3ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 16) [0m
+  [4;35;1mSide Load (0.4ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 16) [0m
+  [4;36;1mDressing Load (0.4ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 16) [0m
+  [4;35;1mEntree Load (0.3ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 17) [0m
+  [4;36;1mSide Load (0.3ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 17) [0m
+  [4;35;1mDressing Load (0.3ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 17) [0m
+  [4;36;1mEntree Load (0.2ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 18) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 18) [0m
+  [4;36;1mDressing Load (0.2ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 18) [0m
+Completed in 30ms (View: 20, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-05 21:04:30) [GET]
+  [4;35;1mMeal Load (0.8ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."published" = 't') LIMIT 3[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mEntree Load (0.3ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 16) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 16) [0m
+  [4;36;1mDressing Load (0.4ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 16) [0m
+  [4;35;1mEntree Load (0.4ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 17) [0m
+  [4;36;1mSide Load (0.3ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 17) [0m
+  [4;35;1mDressing Load (0.3ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 17) [0m
+  [4;36;1mEntree Load (0.2ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 18) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 18) [0m
+  [4;36;1mDressing Load (0.2ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 18) [0m
+Completed in 30ms (View: 21, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-05 21:05:00) [GET]
+  [4;35;1mMeal Load (0.8ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."published" = 't') LIMIT 3[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mEntree Load (0.3ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 16) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 16) [0m
+  [4;36;1mDressing Load (0.3ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 16) [0m
+  [4;35;1mEntree Load (0.3ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 17) [0m
+  [4;36;1mSide Load (0.3ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 17) [0m
+  [4;35;1mDressing Load (0.3ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 17) [0m
+  [4;36;1mEntree Load (0.2ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 18) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 18) [0m
+  [4;36;1mDressing Load (0.2ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 18) [0m
+Completed in 38ms (View: 29, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-05 21:05:22) [GET]
+  [4;35;1mMeal Load (0.8ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."published" = 't') LIMIT 3[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mEntree Load (0.3ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 16) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 16) [0m
+  [4;36;1mDressing Load (0.4ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 16) [0m
+  [4;35;1mEntree Load (0.3ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 17) [0m
+  [4;36;1mSide Load (0.3ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 17) [0m
+  [4;35;1mDressing Load (0.3ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 17) [0m
+  [4;36;1mEntree Load (0.2ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 18) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 18) [0m
+  [4;36;1mDressing Load (0.2ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 18) [0m
+Completed in 39ms (View: 31, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-05 21:05:46) [GET]
+  [4;35;1mMeal Load (1.1ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."published" = 't') LIMIT 3[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mEntree Load (0.4ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 16) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 16) [0m
+  [4;36;1mDressing Load (0.4ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 16) [0m
+  [4;35;1mEntree Load (0.3ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 17) [0m
+  [4;36;1mSide Load (0.3ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 17) [0m
+  [4;35;1mDressing Load (0.3ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 17) [0m
+  [4;36;1mEntree Load (0.2ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 18) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 18) [0m
+  [4;36;1mDressing Load (0.2ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 18) [0m
+Completed in 38ms (View: 29, DB: 4) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-05 21:05:55) [GET]
+  [4;35;1mMeal Load (0.8ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."published" = 't') LIMIT 3[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mEntree Load (0.3ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 16) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 16) [0m
+  [4;36;1mDressing Load (0.3ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 16) [0m
+  [4;35;1mEntree Load (0.3ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 17) [0m
+  [4;36;1mSide Load (0.3ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 17) [0m
+  [4;35;1mDressing Load (0.3ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 17) [0m
+  [4;36;1mEntree Load (0.2ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 18) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 18) [0m
+  [4;36;1mDressing Load (0.2ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 18) [0m
+Completed in 37ms (View: 29, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-05 21:06:01) [GET]
+  [4;35;1mMeal Load (0.8ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."published" = 't') LIMIT 3[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mEntree Load (0.3ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 16) [0m
+  [4;35;1mSide Load (0.4ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 16) [0m
+  [4;36;1mDressing Load (0.3ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 16) [0m
+  [4;35;1mEntree Load (0.3ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 17) [0m
+  [4;36;1mSide Load (0.3ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 17) [0m
+  [4;35;1mDressing Load (0.3ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 17) [0m
+  [4;36;1mEntree Load (0.2ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 18) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 18) [0m
+  [4;36;1mDressing Load (0.2ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 18) [0m
+Completed in 38ms (View: 30, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-05 21:06:52) [GET]
+  [4;35;1mMeal Load (0.8ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."published" = 't') LIMIT 3[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mEntree Load (0.3ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 16) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 16) [0m
+  [4;36;1mDressing Load (0.4ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 16) [0m
+  [4;35;1mEntree Load (0.3ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 17) [0m
+  [4;36;1mSide Load (0.3ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 17) [0m
+  [4;35;1mDressing Load (0.3ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 17) [0m
+  [4;36;1mEntree Load (0.2ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 18) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 18) [0m
+  [4;36;1mDressing Load (0.2ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 18) [0m
+Completed in 38ms (View: 29, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-05 21:07:32) [GET]
+  [4;35;1mMeal Load (0.8ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."published" = 't') LIMIT 3[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mEntree Load (0.3ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 16) [0m
+  [4;35;1mSide Load (0.4ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 16) [0m
+  [4;36;1mDressing Load (0.4ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 16) [0m
+  [4;35;1mEntree Load (0.3ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 17) [0m
+  [4;36;1mSide Load (0.4ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 17) [0m
+  [4;35;1mDressing Load (0.3ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 17) [0m
+  [4;36;1mEntree Load (0.2ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 18) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 18) [0m
+  [4;36;1mDressing Load (0.2ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 18) [0m
+Completed in 38ms (View: 29, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-05 21:08:01) [GET]
+  [4;35;1mMeal Load (0.8ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."published" = 't') LIMIT 3[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mEntree Load (0.3ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 16) [0m
+  [4;35;1mSide Load (0.4ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 16) [0m
+  [4;36;1mDressing Load (0.4ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 16) [0m
+  [4;35;1mEntree Load (0.3ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 17) [0m
+  [4;36;1mSide Load (0.3ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 17) [0m
+  [4;35;1mDressing Load (0.3ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 17) [0m
+  [4;36;1mEntree Load (0.2ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 18) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 18) [0m
+  [4;36;1mDressing Load (0.2ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 18) [0m
+Completed in 73ms (View: 65, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-05 21:08:39) [GET]
+  [4;35;1mMeal Load (0.8ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."published" = 't') LIMIT 3[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mEntree Load (0.3ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 16) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 16) [0m
+  [4;36;1mDressing Load (0.4ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 16) [0m
+  [4;35;1mEntree Load (0.3ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 17) [0m
+  [4;36;1mSide Load (0.3ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 17) [0m
+  [4;35;1mDressing Load (0.3ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 17) [0m
+  [4;36;1mEntree Load (0.2ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 18) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 18) [0m
+  [4;36;1mDressing Load (0.2ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 18) [0m
+Completed in 38ms (View: 29, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-05 21:09:05) [GET]
+  [4;35;1mMeal Load (0.8ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."published" = 't') LIMIT 3[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mEntree Load (0.3ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 16) [0m
+  [4;35;1mSide Load (0.4ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 16) [0m
+  [4;36;1mDressing Load (0.4ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 16) [0m
+  [4;35;1mEntree Load (0.3ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 17) [0m
+  [4;36;1mSide Load (0.3ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 17) [0m
+  [4;35;1mDressing Load (0.3ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 17) [0m
+  [4;36;1mEntree Load (0.2ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 18) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 18) [0m
+  [4;36;1mDressing Load (0.2ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 18) [0m
+Completed in 73ms (View: 65, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-05 21:10:10) [GET]
+  [4;35;1mMeal Load (0.8ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."published" = 't') LIMIT 3[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mEntree Load (0.3ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 16) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 16) [0m
+  [4;36;1mDressing Load (0.3ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 16) [0m
+  [4;35;1mEntree Load (0.3ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 17) [0m
+  [4;36;1mSide Load (0.3ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 17) [0m
+  [4;35;1mDressing Load (0.3ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 17) [0m
+  [4;36;1mEntree Load (0.2ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 18) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 18) [0m
+  [4;36;1mDressing Load (0.2ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 18) [0m
+Completed in 37ms (View: 29, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-05 21:10:37) [GET]
+  [4;35;1mMeal Load (0.8ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."published" = 't') LIMIT 3[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mEntree Load (0.3ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 16) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 16) [0m
+  [4;36;1mDressing Load (0.3ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 16) [0m
+  [4;35;1mEntree Load (0.3ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 17) [0m
+  [4;36;1mSide Load (0.3ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 17) [0m
+  [4;35;1mDressing Load (0.3ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 17) [0m
+  [4;36;1mEntree Load (0.2ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 18) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 18) [0m
+  [4;36;1mDressing Load (0.2ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 18) [0m
+Completed in 29ms (View: 20, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-05 21:11:06) [GET]
+  [4;35;1mMeal Load (0.8ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."published" = 't') LIMIT 3[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mEntree Load (0.3ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 16) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 16) [0m
+  [4;36;1mDressing Load (0.3ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 16) [0m
+  [4;35;1mEntree Load (0.3ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 17) [0m
+  [4;36;1mSide Load (0.3ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 17) [0m
+  [4;35;1mDressing Load (0.3ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 17) [0m
+  [4;36;1mEntree Load (0.2ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 18) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 18) [0m
+  [4;36;1mDressing Load (0.2ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 18) [0m
+Completed in 38ms (View: 29, DB: 3) | 200 OK [http://localhost/]
