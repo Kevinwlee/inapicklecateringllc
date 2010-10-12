@@ -1,6 +1,9 @@
 <% form_for(@meal) do |f| %>
   <%= f.error_messages %>
-
+	<p>
+    <%= f.label :day, "Date" %><br />
+    <%= f.text_field :day %>
+  </p>
   <p>
     <%= f.label :title %><br />
     <%= f.text_field :title %>
@@ -25,10 +28,7 @@
 	<%= render :partial => "other", :collection => @meal.other_items %>
   </div>
   <p><%= add_other_link "Add a Other" %></p>
-  <p>
-    <%= f.label :day %><br />
-    <%= f.text_field :day %>
-  </p>
+  
   <p>
     <%= f.label :published %><br />
     <%= f.check_box :published %>
