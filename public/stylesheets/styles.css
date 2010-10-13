@@ -156,3 +156,6 @@ img.float-left{
 .larger{
 	font-size:1.5em;
 }
+.smaller {
+	font-size:.6em;
+}

@@ -9206,3 +9206,179 @@ Rendering home/index
   [4;36;1mSide Load (0.3ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 19) [0m
   [4;35;1mDressing Load (0.3ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 19) [0m
 Completed in 52ms (View: 24, DB: 4) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-12 21:09:40) [GET]
+  [4;36;1mMeal Load (0.8ms)[0m   [0;1mSELECT * FROM "meals" WHERE ("meals"."published" = 't') LIMIT 3[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mEntree Load (0.3ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 16) [0m
+  [4;36;1mSide Load (0.4ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 16) [0m
+  [4;35;1mDressing Load (0.3ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 16) [0m
+  [4;36;1mEntree Load (0.3ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 17) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 17) [0m
+  [4;36;1mDressing Load (0.3ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 17) [0m
+  [4;35;1mEntree Load (0.2ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 19) [0m
+  [4;36;1mSide Load (0.3ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 19) [0m
+  [4;35;1mDressing Load (0.3ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 19) [0m
+Completed in 38ms (View: 29, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-12 21:10:40) [GET]
+  [4;36;1mMeal Load (0.8ms)[0m   [0;1mSELECT * FROM "meals" WHERE ("meals"."published" = 't') LIMIT 3[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mEntree Load (0.3ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 16) [0m
+  [4;36;1mSide Load (0.3ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 16) [0m
+  [4;35;1mDressing Load (0.3ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 16) [0m
+  [4;36;1mEntree Load (0.4ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 17) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 17) [0m
+  [4;36;1mDressing Load (0.3ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 17) [0m
+  [4;35;1mEntree Load (0.2ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 19) [0m
+  [4;36;1mSide Load (0.3ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 19) [0m
+  [4;35;1mDressing Load (0.3ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 19) [0m
+Completed in 38ms (View: 29, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-12 21:10:50) [GET]
+  [4;36;1mMeal Load (0.8ms)[0m   [0;1mSELECT * FROM "meals" WHERE ("meals"."published" = 't') LIMIT 3[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mEntree Load (0.3ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 16) [0m
+  [4;36;1mSide Load (0.3ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 16) [0m
+  [4;35;1mDressing Load (0.4ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 16) [0m
+  [4;36;1mEntree Load (0.3ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 17) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 17) [0m
+  [4;36;1mDressing Load (0.3ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 17) [0m
+  [4;35;1mEntree Load (0.2ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 19) [0m
+  [4;36;1mSide Load (0.3ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 19) [0m
+  [4;35;1mDressing Load (0.3ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 19) [0m
+Completed in 30ms (View: 21, DB: 4) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-12 21:11:10) [GET]
+  [4;36;1mMeal Load (0.8ms)[0m   [0;1mSELECT * FROM "meals" WHERE ("meals"."published" = 't') LIMIT 3[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mEntree Load (0.3ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 16) [0m
+  [4;36;1mSide Load (0.3ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 16) [0m
+  [4;35;1mDressing Load (0.3ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 16) [0m
+  [4;36;1mEntree Load (0.3ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 17) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 17) [0m
+  [4;36;1mDressing Load (0.3ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 17) [0m
+  [4;35;1mEntree Load (0.3ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 19) [0m
+  [4;36;1mSide Load (0.3ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 19) [0m
+  [4;35;1mDressing Load (0.3ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 19) [0m
+Completed in 30ms (View: 21, DB: 4) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-12 21:12:06) [GET]
+  [4;36;1mMeal Load (0.9ms)[0m   [0;1mSELECT * FROM "meals" WHERE ("meals"."published" = 't') LIMIT 3[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mEntree Load (0.4ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 16) [0m
+  [4;36;1mSide Load (0.4ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 16) [0m
+  [4;35;1mDressing Load (0.3ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 16) [0m
+  [4;36;1mEntree Load (0.3ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 17) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 17) [0m
+  [4;36;1mDressing Load (0.3ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 17) [0m
+  [4;35;1mEntree Load (0.3ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 19) [0m
+  [4;36;1mSide Load (0.3ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 19) [0m
+  [4;35;1mDressing Load (0.3ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 19) [0m
+Completed in 33ms (View: 23, DB: 4) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-12 21:12:33) [GET]
+  [4;36;1mMeal Load (0.8ms)[0m   [0;1mSELECT * FROM "meals" WHERE ("meals"."published" = 't') LIMIT 3[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mEntree Load (0.3ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 16) [0m
+  [4;36;1mSide Load (0.3ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 16) [0m
+  [4;35;1mDressing Load (0.3ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 16) [0m
+  [4;36;1mEntree Load (0.3ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 17) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 17) [0m
+  [4;36;1mDressing Load (0.3ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 17) [0m
+  [4;35;1mEntree Load (0.2ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 19) [0m
+  [4;36;1mSide Load (0.3ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 19) [0m
+  [4;35;1mDressing Load (0.3ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 19) [0m
+Completed in 29ms (View: 20, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-12 21:12:51) [GET]
+  [4;36;1mMeal Load (0.8ms)[0m   [0;1mSELECT * FROM "meals" WHERE ("meals"."published" = 't') LIMIT 3[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mEntree Load (0.3ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 16) [0m
+  [4;36;1mSide Load (0.4ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 16) [0m
+  [4;35;1mDressing Load (0.4ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 16) [0m
+  [4;36;1mEntree Load (0.4ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 17) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 17) [0m
+  [4;36;1mDressing Load (0.3ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 17) [0m
+  [4;35;1mEntree Load (0.2ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 19) [0m
+  [4;36;1mSide Load (0.3ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 19) [0m
+  [4;35;1mDressing Load (0.3ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 19) [0m
+Completed in 73ms (View: 64, DB: 4) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-12 21:13:07) [GET]
+  [4;36;1mMeal Load (0.8ms)[0m   [0;1mSELECT * FROM "meals" WHERE ("meals"."published" = 't') LIMIT 3[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mEntree Load (0.3ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 16) [0m
+  [4;36;1mSide Load (0.3ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 16) [0m
+  [4;35;1mDressing Load (0.4ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 16) [0m
+  [4;36;1mEntree Load (0.3ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 17) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 17) [0m
+  [4;36;1mDressing Load (0.3ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 17) [0m
+  [4;35;1mEntree Load (0.2ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 19) [0m
+  [4;36;1mSide Load (0.3ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 19) [0m
+  [4;35;1mDressing Load (0.3ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 19) [0m
+Completed in 29ms (View: 20, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-12 21:13:56) [GET]
+  [4;36;1mMeal Load (0.8ms)[0m   [0;1mSELECT * FROM "meals" WHERE ("meals"."published" = 't') LIMIT 3[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mEntree Load (0.3ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 16) [0m
+  [4;36;1mSide Load (0.3ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 16) [0m
+  [4;35;1mDressing Load (0.3ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 16) [0m
+  [4;36;1mEntree Load (0.3ms)[0m   [0;1mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 17) [0m
+  [4;35;1mSide Load (0.3ms)[0m   [0mSELECT * FROM "sides" WHERE ("sides".meal_id = 17) [0m
+  [4;36;1mDressing Load (0.5ms)[0m   [0;1mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 17) [0m
+  [4;35;1mEntree Load (0.3ms)[0m   [0mSELECT * FROM "entrees" WHERE ("entrees".meal_id = 19) [0m
+  [4;36;1mSide Load (0.3ms)[0m   [0;1mSELECT * FROM "sides" WHERE ("sides".meal_id = 19) [0m
+  [4;35;1mDressing Load (0.3ms)[0m   [0mSELECT * FROM "dressings" WHERE ("dressings".meal_id = 19) [0m
+Completed in 70ms (View: 61, DB: 4) | 200 OK [http://localhost/]
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-10-12 21:14:23) [GET]
+Rendering template within layouts/application
+Rendering home/about
+Completed in 78ms (View: 77, DB: 0) | 200 OK [http://localhost/home/about]
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-10-12 21:19:57) [GET]
+Rendering template within layouts/application
+Rendering home/about
+Completed in 12ms (View: 11, DB: 0) | 200 OK [http://localhost/home/about]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-12 21:19:58) [GET]
+
+ActionController::RoutingError (No route matches "/images/me-tag.jpg" with {:method=>:get}):
+  warden (0.10.7) lib/warden/manager.rb:35:in `block in call'
+  warden (0.10.7) lib/warden/manager.rb:34:in `catch'
+  warden (0.10.7) lib/warden/manager.rb:34:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /Users/kevin/.rvm/rubies/ruby-1.9.1-p378/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/kevin/.rvm/rubies/ruby-1.9.1-p378/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/kevin/.rvm/rubies/ruby-1.9.1-p378/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-10-12 21:20:12) [GET]
+Rendering template within layouts/application
+Rendering home/about
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://localhost/home/about]
