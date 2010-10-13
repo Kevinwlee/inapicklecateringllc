@@ -138,7 +138,13 @@ span.black{
 	border-top: 7px solid #84DC24;
 	padding-top:10px;
 }
-.day-meal ul{list-style-type: none;}
+.day-meal ul{
+	list-style-type:circle;
+/*	list-style: none/disc/circle/square/decimal/zero inside/outside url();*/
+}
+.day-meal li{
+	margin-bottom:15px;
+}
 img.float-left{
 	float:left;
 	margin:20px;
