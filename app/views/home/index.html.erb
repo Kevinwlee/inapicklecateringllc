@@ -23,28 +23,72 @@
 	</div>
 </div>
 <br class="clear"/>
-<div class="prefix_2"><p></p></div>
-<% @meals.each do |meal| %>
-<div class="grid_5 day-meal">
-	<h3><strong><%=h meal.day %></strong></h3>
-	<h4><strong><%=meal.title%></strong></h4>
-		<% meal.entrees.each do |entree|%>
-			<p><%=entree.name%></p>
-		<%end%>
-	<h5><%=h meal.side_title %></h5>
-	<ul>
-		<% meal.side_items.each do |item|%>
-			<li><%=item.description%></li>
-		<%end%>
-	</ul>
-	<h5><%=h meal.other_title %></h5>
-	<ul>
-		<% meal.other_items.each do |other|%>
-			<li><%=other.description%></li>
-		<%end%>
-	<ul>
+
+<div class="grid_5 day-meal"> 
+	<h3><strong>October 19th</strong></h3> 
+	<h4><strong>Fish Tacos</strong></h4> 
+		
+	<h5>The following sides are included: </h5> 
+	<ul> 
+		<li>Corn Tortillas</li>
+		<li>Cilantro Cabbage Slaw</li>
+		<li>Black Beans</li>
+		<li>Chips/Mango Salsa</li>
+	</ul> 
+	<h5>Choice of Salad</h5> 
+	<ul> 
+		
+			<li>Greek</li> 
+		
+			<li>Ranch</li> 
+		
+			<li>Honey Mustard</li> 
+		
+			<li>Balsamic Vinaigrette </li> 
+		
+	<ul> 
+</div> 
+ 
+<div class="grid_5 day-meal"> 
+	<h3><strong>October 21st</strong></h3> 
+	<h4><strong>Grilled Chicken Caesar Salad</strong></h4> 
+		
+	<h5>Homemade 2 Cheese Bread</h5> 
+
+	<h5>Choice of Soup</h5> 
+</div> 
+ 
+<div class="grid_5 day-meal"> 
+	<h3><strong>Available Anytime</strong></h3> 
+	<h4><strong></strong></h4> 
+		
+	<h5>Sides - 7.95 per 24 ounce</h5> 
+	<ul> 
+		
+			<li>Mac N' Cheese</li> 
+		
+			<li>Mashed Potatoes</li> 
+		
+			<li>Cheesy Chicken and Rice</li> 
+		
+			<li>Spaghetti with Turkey Meatballs</li> 
+		
+			<li>Chicken Salad with Slivered Almonds and Cranberries</li> 
+		
+	</ul> 
+	<h5>Soups - 9.95 per Quart</h5> 
+	<ul> 
+		
+			<li>French Onion</li> 
+		
+			<li>Homemade Chicken Noodle</li> 
+		
+			<li>Minestrone with Pasta, Beans and Vegetables</li> 
+		
+			<li>Beer Cheese Soup</li> 
+		
+	<ul> 
 </div>
-<%end%>
 <br class="clear"/>
 <div class="grid_16">
 	<div class="cl">
