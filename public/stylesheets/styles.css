@@ -111,7 +111,7 @@ span.black{
 .welcome h1{
 	/*	typekit font */
 	font-family: "lemonde-sans-1","lemonde-sans-2",sans-serif;	
-		font-family: "angie-sans-1","angie-sans-2",sans-serif;
+	font-family: "angie-sans-1","angie-sans-2",sans-serif;
 	margin-bottom:0px;
 	font-size:3.2em;
 	font-weight: bold;
@@ -132,6 +132,30 @@ span.black{
 .welcome-image img{
 	margin-top:20px;
 	margin-left:35px;
+}
+
+/*special meal*/
+.special-meal {
+	font-size: 1.1em;
+}
+.special-meal p{
+	margin-bottom:12px;
+	
+}
+.special-meal h3{
+	border-top: 7px solid #84DC24;
+	padding-top:10px;
+	margin-bottom: 5px;
+}
+.special-meal h4{
+	margin:0px 0px 10px 0px;
+}
+
+.special-meal ul{
+	list-style-type:circle;
+}
+.special-meal li{
+	margin-bottom:8px;
 }
 /*day meal*/
 .day-meal h3{
