@@ -9705,3 +9705,95 @@ Processing HomeController#index (for 127.0.0.1 at 2010-11-08 21:27:23) [GET]
 Rendering template within layouts/application
 Rendering home/index
 Completed in 8ms (View: 2, DB: 1) | 200 OK [http://localhost/home]
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from <class:User> at /Users/kevin/Sites/inapicklecateringllc/app/models/user.rb:4)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-12-02 20:41:27) [GET]
+  [4;36;1mMeal Load (34.9ms)[0m   [0;1mSELECT * FROM "meals" WHERE ("meals"."published" = 't') LIMIT 3[0m
+Rendering template within layouts/application
+Rendering home/index
+Completed in 339ms (View: 180, DB: 35) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-02 20:41:29) [GET]
+
+ActionController::RoutingError (No route matches "/public/images/pickles.jpg" with {:method=>:get}):
+  warden (0.10.7) lib/warden/manager.rb:35:in `block in call'
+  warden (0.10.7) lib/warden/manager.rb:34:in `catch'
+  warden (0.10.7) lib/warden/manager.rb:34:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /Users/kevin/.rvm/rubies/ruby-1.9.1-p378/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/kevin/.rvm/rubies/ruby-1.9.1-p378/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/kevin/.rvm/rubies/ruby-1.9.1-p378/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-12-02 20:42:23) [GET]
+  [4;35;1mMeal Load (1.0ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."published" = 't') LIMIT 3[0m
+Rendering template within layouts/application
+Rendering home/index
+Completed in 18ms (View: 11, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-12-02 20:42:43) [GET]
+  [4;36;1mMeal Load (0.8ms)[0m   [0;1mSELECT * FROM "meals" WHERE ("meals"."published" = 't') LIMIT 3[0m
+Rendering template within layouts/application
+Rendering home/index
+Completed in 17ms (View: 11, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-12-02 20:42:55) [GET]
+  [4;35;1mMeal Load (0.8ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."published" = 't') LIMIT 3[0m
+Rendering template within layouts/application
+Rendering home/index
+Completed in 18ms (View: 12, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-12-02 20:46:03) [GET]
+  [4;36;1mMeal Load (0.8ms)[0m   [0;1mSELECT * FROM "meals" WHERE ("meals"."published" = 't') LIMIT 3[0m
+Rendering template within layouts/application
+Rendering home/index
+Completed in 18ms (View: 12, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-12-02 20:46:32) [GET]
+  [4;35;1mMeal Load (0.8ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."published" = 't') LIMIT 3[0m
+Rendering template within layouts/application
+Rendering home/index
+Completed in 19ms (View: 13, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-12-02 20:48:07) [GET]
+  [4;36;1mMeal Load (0.9ms)[0m   [0;1mSELECT * FROM "meals" WHERE ("meals"."published" = 't') LIMIT 3[0m
+Rendering template within layouts/application
+Rendering home/index
+Completed in 18ms (View: 11, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-12-02 20:48:27) [GET]
+  [4;35;1mMeal Load (0.8ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."published" = 't') LIMIT 3[0m
+Rendering template within layouts/application
+Rendering home/index
+Completed in 9ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-12-02 20:48:55) [GET]
+  [4;36;1mMeal Load (0.8ms)[0m   [0;1mSELECT * FROM "meals" WHERE ("meals"."published" = 't') LIMIT 3[0m
+Rendering template within layouts/application
+Rendering home/index
+Completed in 17ms (View: 11, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-12-02 20:49:12) [GET]
+  [4;35;1mMeal Load (0.8ms)[0m   [0mSELECT * FROM "meals" WHERE ("meals"."published" = 't') LIMIT 3[0m
+Rendering template within layouts/application
+Rendering home/index
+Completed in 17ms (View: 11, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-12-02 20:49:48) [GET]
+  [4;36;1mMeal Load (0.8ms)[0m   [0;1mSELECT * FROM "meals" WHERE ("meals"."published" = 't') LIMIT 3[0m
+Rendering template within layouts/application
+Rendering home/index
+Completed in 8ms (View: 2, DB: 1) | 200 OK [http://localhost/]

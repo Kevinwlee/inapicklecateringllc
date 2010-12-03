@@ -183,3 +183,5 @@ img.float-left{
 .smaller {
 	font-size:.6em;
 }
+.under {margin-top:20px;}
+.under li {margin-top:10px;}
